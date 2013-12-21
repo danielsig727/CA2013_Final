@@ -1,0 +1,9 @@
+build/debug/x86_64//SDKCommon.o: ../../../include/CL/cl_gl_ext.h
+build/debug/x86_64//SDKCommon.o: SDKCommon.cpp
+build/debug/x86_64//SDKCommon.o: ../../../samples/opencl/SDKUtil/include/SDKCommon.hpp
+build/debug/x86_64//SDKCommon.o: ../../../samples/opencl/SDKUtil/include/SDKFile.hpp
+build/debug/x86_64//SDKCommon.o: ../../../include/CL/cl_gl.h
+build/debug/x86_64//SDKCommon.o: ../../../include/CL/opencl.h
+build/debug/x86_64//SDKCommon.o: ../../../include/CL/cl_platform.h
+build/debug/x86_64//SDKCommon.o: ../../../include/CL/cl.h
+build/debug/x86_64//SDKCommon.o: ../../../include/CL/cl_ext.h

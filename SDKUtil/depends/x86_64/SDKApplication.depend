@@ -1,0 +1,11 @@
+build/debug/x86_64//SDKApplication.o: ../../../include/CL/cl_gl_ext.h
+build/debug/x86_64//SDKApplication.o: ../../../samples/opencl/SDKUtil/include/SDKApplication.hpp
+build/debug/x86_64//SDKApplication.o: ../../../samples/opencl/SDKUtil/include/SDKCommon.hpp
+build/debug/x86_64//SDKApplication.o: ../../../samples/opencl/SDKUtil/include/SDKFile.hpp
+build/debug/x86_64//SDKApplication.o: ../../../include/CL/cl_gl.h
+build/debug/x86_64//SDKApplication.o: ../../../include/CL/opencl.h
+build/debug/x86_64//SDKApplication.o: ../../../include/CL/cl_platform.h
+build/debug/x86_64//SDKApplication.o: ../../../include/CL/cl.h
+build/debug/x86_64//SDKApplication.o: SDKApplication.cpp
+build/debug/x86_64//SDKApplication.o: ../../../include/CL/cl_ext.h
+build/debug/x86_64//SDKApplication.o: ../../../samples/opencl/SDKUtil/include/SDKCommandArgs.hpp

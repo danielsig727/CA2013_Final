@@ -1,0 +1,2 @@
+build/debug/x86_64//SDKThread.o: SDKThread.cpp
+build/debug/x86_64//SDKThread.o: ../../../samples/opencl/SDKUtil/include/SDKThread.hpp
