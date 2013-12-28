@@ -3,7 +3,7 @@
 #define TRANSPOSE_FUNC "transpose"
 #define MULT_FUNC "matrix_mult"
 
-#define MATRIX_DIM 1024
+#define MATRIX_DIM 128
 
 #include <math.h>
 #include <stdio.h>
