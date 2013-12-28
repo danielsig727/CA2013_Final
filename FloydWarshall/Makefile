@@ -8,6 +8,7 @@ CFLAGS= -Wall -DUNIX -g -DDEBUG
 LIBS=-lm2s-opencl
 CFLAGS+=-m32
 
+INC_DIRS=/opt/AMDAPP/include
 LIB_DIRS=/opt/m2s42/lib
 
 $(PROJ): $(PROJ).cpp $(PROJ).hpp SDKApplication.cpp SDKApplication.hpp SDKBitMap.cpp SDKBitMap.hpp SDKCommandArgs.cpp SDKCommandArgs.hpp SDKCommon.cpp SDKCommon.hpp SDKFile.cpp SDKFile.hpp SDKThread.cpp SDKThread.hpp
