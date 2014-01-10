@@ -150,6 +150,7 @@ Type = EndNode
 [Network.net0.Node.n23]
 Type = EndNode
 
+
 ; Making a bus with 24 switches
 
 [Network.net0.Link.sw0-sw1]
@@ -270,7 +271,7 @@ Source = sw22
 Dest = sw23
 Type = Bidirectional
 
-[Network.net0.Link.sw23-sw0]
+[Network.net0.Link.sw23-sw20]
 Source = sw23
 Dest = sw20
 Type = Bidirectional
