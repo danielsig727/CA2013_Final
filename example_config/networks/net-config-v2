@@ -150,7 +150,10 @@ Type = EndNode
 [Network.net0.Node.n23]
 Type = EndNode
 
+
 ; Making a bus with 24 switches
+
+;;;;;;;;;;;;;;;;;;;; First Mesh ;;;;;;;;;;;;;;;;;;;;
 
 [Network.net0.Link.sw0-sw1]
 Source = sw0
@@ -172,10 +175,39 @@ Source = sw3
 Dest = sw4
 Type = Bidirectional
 
-[Network.net0.Link.sw4-sw5]
+[Network.net0.Link.sw4-sw0]
 Source = sw4
-Dest = sw5
+Dest = sw0
 Type = Bidirectional
+
+[Network.net0.Link.sw0-sw2]
+Source = sw0
+Dest = sw2
+Type = Bidirectional
+
+[Network.net0.Link.sw0-sw3]
+Source = sw0
+Dest = sw3
+Type = Bidirectional
+
+[Network.net0.Link.sw1-sw3]
+Source = sw1
+Dest = sw3
+Type = Bidirectional
+
+[Network.net0.Link.sw1-sw4]
+Source = sw1
+Dest = sw4
+Type = Bidirectional
+
+[Network.net0.Link.sw2-sw4]
+Source = sw2
+Dest = sw4
+Type = Bidirectional
+
+
+
+;;;;;;;;;;;;;;;;;;;; Second Mesh ;;;;;;;;;;;;;;;;;;;;
 
 [Network.net0.Link.sw5-sw6]
 Source = sw5
@@ -197,10 +229,38 @@ Source = sw8
 Dest = sw9
 Type = Bidirectional
 
-[Network.net0.Link.sw9-sw10]
+[Network.net0.Link.sw9-sw5]
 Source = sw9
-Dest = sw10
+Dest = sw5
 Type = Bidirectional
+
+[Network.net0.Link.sw5-sw7]
+Source = sw5
+Dest = sw7
+Type = Bidirectional
+
+[Network.net0.Link.sw5-sw8]
+Source = sw5
+Dest = sw8
+Type = Bidirectional
+
+[Network.net0.Link.sw6-sw8]
+Source = sw6
+Dest = sw8
+Type = Bidirectional
+
+[Network.net0.Link.sw6-sw9]
+Source = sw6
+Dest = sw9
+Type = Bidirectional
+
+[Network.net0.Link.sw7-sw9]
+Source = sw7
+Dest = sw9
+Type = Bidirectional
+
+
+;;;;;;;;;;;;;;;;;;;; Third Mesh ;;;;;;;;;;;;;;;;;;;;
 
 [Network.net0.Link.sw10-sw11]
 Source = sw10
@@ -222,10 +282,38 @@ Source = sw13
 Dest = sw14
 Type = Bidirectional
 
-[Network.net0.Link.sw14-sw15]
+[Network.net0.Link.sw14-sw10]
 Source = sw14
-Dest = sw15
+Dest = sw10
 Type = Bidirectional
+
+[Network.net0.Link.sw10-sw12]
+Source = sw10
+Dest = sw12
+Type = Bidirectional
+
+[Network.net0.Link.sw10-sw13]
+Source = sw10
+Dest = sw13
+Type = Bidirectional
+
+[Network.net0.Link.sw11-sw13]
+Source = sw11
+Dest = sw13
+Type = Bidirectional
+
+[Network.net0.Link.sw11-sw14]
+Source = sw11
+Dest = sw14
+Type = Bidirectional
+
+[Network.net0.Link.sw12-sw14]
+Source = sw12
+Dest = sw14
+Type = Bidirectional
+
+
+;;;;;;;;;;;;;;;;;;;; Fourth Mesh ;;;;;;;;;;;;;;;;;;;;
 
 [Network.net0.Link.sw15-sw16]
 Source = sw15
@@ -247,13 +335,39 @@ Source = sw18
 Dest = sw19
 Type = Bidirectional
 
-[Network.net0.Link.sw19-sw0]
+[Network.net0.Link.sw19-sw15]
 Source = sw19
-Dest = sw0
+Dest = sw15
+Type = Bidirectional
+
+[Network.net0.Link.sw15-sw17]
+Source = sw15
+Dest = sw17
+Type = Bidirectional
+
+[Network.net0.Link.sw15-sw18]
+Source = sw15
+Dest = sw18
+Type = Bidirectional
+
+[Network.net0.Link.sw16-sw18]
+Source = sw16
+Dest = sw18
+Type = Bidirectional
+
+[Network.net0.Link.sw16-sw19]
+Source = sw16
+Dest = sw19
+Type = Bidirectional
+
+[Network.net0.Link.sw17-sw19]
+Source = sw17
+Dest = sw19
 Type = Bidirectional
 
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [Network.net0.Link.sw20-sw21]
 Source = sw20
