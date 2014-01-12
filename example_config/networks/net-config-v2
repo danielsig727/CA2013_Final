@@ -365,27 +365,7 @@ Source = sw17
 Dest = sw19
 Type = Bidirectional
 
-;;;;;;;;;;;;;;;;;;;; Interconnect of each Mesh ;;;;;;;;;;;;;;;;;;;;
 
-[Network.net0.Link.sw4-sw5]
-Source = sw4
-Dest = sw5
-Type = Bidirectional
-
-[Network.net0.Link.sw9-sw10]
-Source = sw9
-Dest = sw10
-Type = Bidirectional
-
-[Network.net0.Link.sw14-sw15]
-Source = sw14
-Dest = sw15
-Type = Bidirectional
-
-[Network.net0.Link.sw19-sw0]
-Source = sw19
-Dest = sw0
-Type = Bidirectional
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
