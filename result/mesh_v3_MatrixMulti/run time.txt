@@ -1,0 +1,44 @@
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 332.81 [s]
+SimEnd = ContextsFinished
+SimTime = 205985729.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 205985730
+
+[ SouthernIslands ]
+RealTime = 0.00 [s]
+Instructions = 62672
+InstructionsPerSecond = 0
+NDRangeCount = 1
+WorkGroupCount = 16
+BranchInstructions = 544
+LDSInstructions = 0
+ScalarALUInstructions = 7856
+ScalarMemInstructions = 160
+VectorALUInstructions = 49952
+VectorMemInstructions = 4160
+SimTime = 61548.90 [ns]
+Frequency = 925 [MHz]
+Cycles = 56937
+CyclesPerSecond = 0
+
+[ x86 ]
+RealTime = 332.77 [s]
+Instructions = 38645889
+InstructionsPerSecond = 116134
+Contexts = 3
+Memory = 47226880
+FastForwardInstructions = 0
+CommittedInstructions = 34869998
+CommittedInstructionsPerCycle = 0.1693
+CommittedMicroInstructions = 57522197
+CommittedMicroInstructionsPerCycle = 0.2793
+BranchPredictionAccuracy = 0.9894
+SimTime = 205985520.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 205985520
+CyclesPerSecond = 619003
