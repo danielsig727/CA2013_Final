@@ -1,2 +1,2 @@
-m2c --amd --amd-device 12 RecursiveGaussian_Kernels.cl
+m2c --amd --amd-device Tahiti RecursiveGaussian_Kernels.cl
 m2s --x86-sim detailed --x86-config cpu-config --x86-report cpu-report-example --si-sim detailed --si-config gpu-config --si-report gpu-report-example --mem-config mem-config --mem-report mem-report-example --net-config net-config --net-report net-report-example ./RecursiveGaussian --load RecursiveGaussian_Kernels.bin
