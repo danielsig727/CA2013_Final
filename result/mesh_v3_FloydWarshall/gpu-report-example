@@ -1,0 +1,645 @@
+;
+; GPU Configuration
+;
+
+[ Config.Device ]
+Frequency = 925
+NumComputeUnits = 20
+
+[ Config.ComputeUnit ]
+NumWavefrontPools = 4
+NumVectorRegisters = 65536
+NumScalarRegisters = 2048
+MaxWorkGroupsPerWavefrontPool = 10
+MaxWavefrontsPerWavefrontPool = 10
+
+[ Config.FrontEnd ]
+FetchLatency = 5
+FetchWidth = 4
+FetchBufferSize = 10
+IssueLatency = 1
+IssueWidth = 5
+MaxInstIssuedPerType = 1
+
+[ Config.SIMDUnit ]
+NumSIMDLanes = 16
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadExecWriteLatency = 8
+ReadExecWriteBufferSize = 1
+
+[ Config.ScalarUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+ALULatency = 4
+ExecBufferSize = 32
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.BranchUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+ExecLatency = 4
+ExecBufferSize = 4
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.LDSUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+MaxInflightMem = 32
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.VectorMemUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+MaxInflightMem = 32
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.LDS ]
+Size = 65536
+AllocSize = 64
+BlockSize = 64
+Latency = 2
+Ports = 2
+
+
+;
+; Simulation Statistics
+;
+
+[ Device ]
+
+NDRangeCount = 256
+WorkGroupCount = 65536
+Instructions = 11386216
+ScalarALUInstructions = 2696967
+ScalarMemInstructions = 1947565
+BranchInstructions = 262144
+VectorALUInstructions = 5467994
+LDSInstructions = 0
+VectorMemInstructions = 1011546
+Cycles = 6466255
+InstructionsPerCycle = 1
+
+
+[ ComputeUnit 0 ]
+
+WorkGroupCount = 3251
+Instructions = 562968
+ScalarALUInstructions = 133089
+ScalarMemInstructions = 96379
+BranchInstructions = 13004
+SIMDInstructions = 270782
+VectorMemInstructions = 49714
+LDSInstructions = 0
+Cycles = 5902876
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25246350
+ScalarRegWrites= 10324290
+VectorRegReads= 21787286
+VectorRegWrites= 18369084
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 1 ]
+
+WorkGroupCount = 3323
+Instructions = 577888
+ScalarALUInstructions = 136956
+ScalarMemInstructions = 98820
+BranchInstructions = 13292
+SIMDInstructions = 277392
+VectorMemInstructions = 51428
+LDSInstructions = 0
+Cycles = 5930089
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25817295
+ScalarRegWrites= 10556531
+VectorRegReads= 22281623
+VectorRegWrites= 18780630
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 2 ]
+
+WorkGroupCount = 3288
+Instructions = 572680
+ScalarALUInstructions = 135843
+ScalarMemInstructions = 97889
+BranchInstructions = 13152
+SIMDInstructions = 274690
+VectorMemInstructions = 51106
+LDSInstructions = 0
+Cycles = 5944225
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25549620
+ScalarRegWrites= 10446632
+VectorRegReads= 22051188
+VectorRegWrites= 18584520
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 3 ]
+
+WorkGroupCount = 3333
+Instructions = 580168
+ScalarALUInstructions = 137571
+ScalarMemInstructions = 99185
+BranchInstructions = 13332
+SIMDInstructions = 278362
+VectorMemInstructions = 51718
+LDSInstructions = 0
+Cycles = 5950552
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25891650
+ScalarRegWrites= 10587902
+VectorRegReads= 22345338
+VectorRegWrites= 18835812
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 4 ]
+
+WorkGroupCount = 3295
+Instructions = 572536
+ScalarALUInstructions = 135621
+ScalarMemInstructions = 97927
+BranchInstructions = 13180
+SIMDInstructions = 274934
+VectorMemInstructions = 50874
+LDSInstructions = 0
+Cycles = 5914657
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25596960
+ScalarRegWrites= 10466780
+VectorRegReads= 22091080
+VectorRegWrites= 18621264
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 5 ]
+
+WorkGroupCount = 3238
+Instructions = 561248
+ScalarALUInstructions = 132756
+ScalarMemInstructions = 96060
+BranchInstructions = 12952
+SIMDInstructions = 269832
+VectorMemInstructions = 49648
+LDSInstructions = 0
+Cycles = 5914310
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25145145
+ScalarRegWrites= 10283221
+VectorRegReads= 21699913
+VectorRegWrites= 18295530
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 6 ]
+
+WorkGroupCount = 3293
+Instructions = 572216
+ScalarALUInstructions = 135549
+ScalarMemInstructions = 97871
+BranchInstructions = 13172
+SIMDInstructions = 274774
+VectorMemInstructions = 50850
+LDSInstructions = 0
+Cycles = 5922142
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25575040
+ScalarRegWrites= 10459164
+VectorRegReads= 22071288
+VectorRegWrites= 18607408
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 7 ]
+
+WorkGroupCount = 3308
+Instructions = 575208
+ScalarALUInstructions = 136311
+ScalarMemInstructions = 98365
+BranchInstructions = 13232
+SIMDInstructions = 276122
+VectorMemInstructions = 51178
+LDSInstructions = 0
+Cycles = 5923480
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25696695
+ScalarRegWrites= 10508031
+VectorRegReads= 22176983
+VectorRegWrites= 18694230
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 8 ]
+
+WorkGroupCount = 3273
+Instructions = 569120
+ScalarALUInstructions = 134868
+ScalarMemInstructions = 97324
+BranchInstructions = 13092
+SIMDInstructions = 273200
+VectorMemInstructions = 50636
+LDSInstructions = 0
+Cycles = 5889767
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25427035
+ScalarRegWrites= 10397295
+VectorRegReads= 21944563
+VectorRegWrites= 18497326
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 9 ]
+
+WorkGroupCount = 3230
+Instructions = 562880
+ScalarALUInstructions = 133560
+ScalarMemInstructions = 96200
+BranchInstructions = 12920
+SIMDInstructions = 269920
+VectorMemInstructions = 50280
+LDSInstructions = 0
+Cycles = 5930316
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25098780
+ScalarRegWrites= 10262476
+VectorRegReads= 21662060
+VectorRegWrites= 18256632
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 10 ]
+
+WorkGroupCount = 3089
+Instructions = 535632
+ScalarALUInstructions = 126726
+ScalarMemInstructions = 91666
+BranchInstructions = 12356
+SIMDInstructions = 257468
+VectorMemInstructions = 47416
+LDSInstructions = 0
+Cycles = 5863466
+InstructionsPerCycle = 0
+
+ScalarRegReads= 23987900
+ScalarRegWrites= 9810100
+VectorRegReads= 20701204
+VectorRegWrites= 17453576
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 11 ]
+
+WorkGroupCount = 3294
+Instructions = 571960
+ScalarALUInstructions = 135429
+ScalarMemInstructions = 97847
+BranchInstructions = 13176
+SIMDInstructions = 274750
+VectorMemInstructions = 50758
+LDSInstructions = 0
+Cycles = 5901099
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25581340
+ScalarRegWrites= 10461832
+VectorRegReads= 22076524
+VectorRegWrites= 18612472
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 12 ]
+
+WorkGroupCount = 3371
+Instructions = 584944
+ScalarALUInstructions = 138450
+ScalarMemInstructions = 100086
+BranchInstructions = 13484
+SIMDInstructions = 281076
+VectorMemInstructions = 51848
+LDSInstructions = 0
+Cycles = 5940645
+InstructionsPerCycle = 0
+
+ScalarRegReads= 26188070
+ScalarRegWrites= 10707942
+VectorRegReads= 22601326
+VectorRegWrites= 19051052
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 13 ]
+
+WorkGroupCount = 3293
+Instructions = 572200
+ScalarALUInstructions = 135543
+ScalarMemInstructions = 97869
+BranchInstructions = 13172
+SIMDInstructions = 274770
+VectorMemInstructions = 50846
+LDSInstructions = 0
+Cycles = 5911372
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25580290
+ScalarRegWrites= 10460206
+VectorRegReads= 22076538
+VectorRegWrites= 18609508
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 14 ]
+
+WorkGroupCount = 3351
+Instructions = 582352
+ScalarALUInstructions = 137958
+ScalarMemInstructions = 99602
+BranchInstructions = 13404
+SIMDInstructions = 279628
+VectorMemInstructions = 51760
+LDSInstructions = 0
+Cycles = 5947900
+InstructionsPerCycle = 0
+
+ScalarRegReads= 26027835
+ScalarRegWrites= 10643879
+VectorRegReads= 22462371
+VectorRegWrites= 18936078
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 15 ]
+
+WorkGroupCount = 3050
+Instructions = 528952
+ScalarALUInstructions = 125157
+ScalarMemInstructions = 90519
+BranchInstructions = 12200
+SIMDInstructions = 254238
+VectorMemInstructions = 46838
+LDSInstructions = 0
+Cycles = 5817353
+InstructionsPerCycle = 0
+
+ScalarRegReads= 23689035
+ScalarRegWrites= 9687083
+VectorRegReads= 20443835
+VectorRegWrites= 17234814
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 16 ]
+
+WorkGroupCount = 3268
+Instructions = 569080
+ScalarALUInstructions = 134973
+ScalarMemInstructions = 97279
+BranchInstructions = 13072
+SIMDInstructions = 272990
+VectorMemInstructions = 50766
+LDSInstructions = 0
+Cycles = 5916362
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25387810
+ScalarRegWrites= 10381750
+VectorRegReads= 21910658
+VectorRegWrites= 18468916
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 17 ]
+
+WorkGroupCount = 3318
+Instructions = 575392
+ScalarALUInstructions = 136140
+ScalarMemInstructions = 98468
+BranchInstructions = 13272
+SIMDInstructions = 276568
+VectorMemInstructions = 50944
+LDSInstructions = 0
+Cycles = 5912763
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25769950
+ScalarRegWrites= 10538134
+VectorRegReads= 22239598
+VectorRegWrites= 18748972
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 18 ]
+
+WorkGroupCount = 3314
+Instructions = 575424
+ScalarALUInstructions = 136248
+ScalarMemInstructions = 98440
+BranchInstructions = 13256
+SIMDInstructions = 276416
+VectorMemInstructions = 51064
+LDSInstructions = 0
+Cycles = 5934974
+InstructionsPerCycle = 0
+
+ScalarRegReads= 25741380
+ScalarRegWrites= 10526292
+VectorRegReads= 22215284
+VectorRegWrites= 18727368
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 19 ]
+
+WorkGroupCount = 3356
+Instructions = 583368
+ScalarALUInstructions = 138219
+ScalarMemInstructions = 99769
+BranchInstructions = 13424
+SIMDInstructions = 280082
+VectorMemInstructions = 51874
+LDSInstructions = 0
+Cycles = 5955440
+InstructionsPerCycle = 0
+
+ScalarRegReads= 26066165
+ScalarRegWrites= 10659733
+VectorRegReads= 22495381
+VectorRegWrites= 18964130
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
