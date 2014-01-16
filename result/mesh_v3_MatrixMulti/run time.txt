@@ -1,44 +1,70 @@
+No protocol specified
+Selected devices: Tahiti
+	matrix_mult_Kernel.bin - kernel binary created
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: KOwV0
+
+warning: path '/lib/tls/libm2s-opencl.so.1' has been redirected to
+	path '/home/local/CA2013/CA_USER12/private/CA2013_Final/MatrixMulti/libm2s-opencl.so' while loading runtime 'OpenCL'.
+	The dynamic linker of your application seems to be accessing a 
+	runtime library. A copy of this runtime library has been found 
+	in the current working directory, and this copy will be used by
+	the linker. As a safer and portable option, please link your 
+	guest program statically with the corresponding runtime.
+
+Platform 0 : Multi2Sim
+Platform found : Multi2Sim
+
+Selected Platform Vendor : Multi2Sim
+Device 0 : Multi2Sim Southern Islands GPU Model Device ID is 0x80b0ce0
+Executing kernel for 1 iterations
+-------------------------------------------
+Multiplication check succeeded.
+
 ;
 ; Simulation Statistics Summary
 ;
 
 [ General ]
-RealTime = 332.81 [s]
+RealTime = 175.95 [s]
 SimEnd = ContextsFinished
-SimTime = 205985729.00 [ns]
+SimTime = 128699497.00 [ns]
 Frequency = 1000 [MHz]
-Cycles = 205985730
+Cycles = 128699498
 
 [ SouthernIslands ]
 RealTime = 0.00 [s]
-Instructions = 62672
+Instructions = 62720
 InstructionsPerSecond = 0
 NDRangeCount = 1
 WorkGroupCount = 16
 BranchInstructions = 544
 LDSInstructions = 0
-ScalarALUInstructions = 7856
+ScalarALUInstructions = 7904
 ScalarMemInstructions = 160
 VectorALUInstructions = 49952
 VectorMemInstructions = 4160
-SimTime = 61548.90 [ns]
+SimTime = 58349.14 [ns]
 Frequency = 925 [MHz]
-Cycles = 56937
+Cycles = 53977
 CyclesPerSecond = 0
 
 [ x86 ]
-RealTime = 332.77 [s]
-Instructions = 38645889
-InstructionsPerSecond = 116134
+RealTime = 175.92 [s]
+Instructions = 39476509
+InstructionsPerSecond = 224401
 Contexts = 3
-Memory = 47226880
+Memory = 47296512
 FastForwardInstructions = 0
-CommittedInstructions = 34869998
-CommittedInstructionsPerCycle = 0.1693
-CommittedMicroInstructions = 57522197
-CommittedMicroInstructionsPerCycle = 0.2793
-BranchPredictionAccuracy = 0.9894
-SimTime = 205985520.00 [ns]
+CommittedInstructions = 35744303
+CommittedInstructionsPerCycle = 0.2777
+CommittedMicroInstructions = 58763205
+CommittedMicroInstructionsPerCycle = 0.4566
+BranchPredictionAccuracy = 0.9898
+SimTime = 128699071.00 [ns]
 Frequency = 1000 [MHz]
-Cycles = 205985520
-CyclesPerSecond = 619003
+Cycles = 128699071
+CyclesPerSecond = 731580
+

@@ -92,32 +92,32 @@ Ports = 2
 
 NDRangeCount = 1
 WorkGroupCount = 16
-Instructions = 62672
-ScalarALUInstructions = 7856
+Instructions = 62720
+ScalarALUInstructions = 7904
 ScalarMemInstructions = 160
 BranchInstructions = 544
 VectorALUInstructions = 49952
 LDSInstructions = 0
 VectorMemInstructions = 4160
-Cycles = 56937
+Cycles = 53977
 InstructionsPerCycle = 1
 
 
 [ ComputeUnit 0 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 56028
+Cycles = 53521
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -133,18 +133,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 1 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55117
+Cycles = 52943
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -160,18 +160,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 2 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55067
+Cycles = 52099
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -187,18 +187,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 3 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55020
+Cycles = 52113
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -214,18 +214,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 4 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55947
+Cycles = 53154
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -241,18 +241,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 5 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 54939
+Cycles = 53593
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -268,18 +268,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 6 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 54989
+Cycles = 52066
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -295,18 +295,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 7 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55039
+Cycles = 52009
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -322,18 +322,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 8 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 54843
+Cycles = 52983
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -349,18 +349,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 9 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 54915
+Cycles = 52926
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -376,18 +376,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 10 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55030
+Cycles = 53834
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -403,18 +403,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 11 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55001
+Cycles = 53783
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -430,18 +430,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 12 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55132
+Cycles = 53966
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -457,18 +457,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 13 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55148
+Cycles = 53977
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -484,18 +484,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 14 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 55158
+Cycles = 53862
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 
@@ -511,18 +511,18 @@ LDS.CoalescedWrites = 0
 [ ComputeUnit 15 ]
 
 WorkGroupCount = 1
-Instructions = 3917
-ScalarALUInstructions = 491
+Instructions = 3920
+ScalarALUInstructions = 494
 ScalarMemInstructions = 10
 BranchInstructions = 34
 SIMDInstructions = 3122
 VectorMemInstructions = 260
 LDSInstructions = 0
-Cycles = 56937
+Cycles = 53844
 InstructionsPerCycle = 0
 
-ScalarRegReads= 78219
-ScalarRegWrites= 25953
+ScalarRegReads= 78223
+ScalarRegWrites= 25959
 VectorRegReads= 478848
 VectorRegWrites= 265344
 

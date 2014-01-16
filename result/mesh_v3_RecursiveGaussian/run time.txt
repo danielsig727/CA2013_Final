@@ -1,44 +1,70 @@
+No protocol specified
+Selected devices: Tahiti
+	RecursiveGaussian_Kernels.bin - kernel binary created
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 4Xahw
+
+warning: path '/lib/tls/libm2s-opencl.so.1' has been redirected to
+	path '/home/local/CA2013/CA_USER12/private/CA2013_Final/RecursiveGaussian/libm2s-opencl.so' while loading runtime 'OpenCL'.
+	The dynamic linker of your application seems to be accessing a 
+	runtime library. A copy of this runtime library has been found 
+	in the current working directory, and this copy will be used by
+	the linker. As a safer and portable option, please link your 
+	guest program statically with the corresponding runtime.
+
+Platform 0 : Multi2Sim
+Searching for input Image at following location : /home/local/CA2013/CA_USER12/private/CA2013_Final/RecursiveGaussian/RecursiveGaussian_Input.bmp
+Platform found : Multi2Sim
+
+Selected Platform Vendor : Multi2Sim
+Device 0 : Multi2Sim Southern Islands GPU Model Device ID is 0x8073a50
+Executing kernel for 1 iterations
+-------------------------------------------
+
 ;
 ; Simulation Statistics Summary
 ;
 
 [ General ]
-RealTime = 1825.54 [s]
+RealTime = 1218.52 [s]
 SimEnd = ContextsFinished
-SimTime = 291215594.00 [ns]
+SimTime = 262248465.00 [ns]
 Frequency = 1000 [MHz]
-Cycles = 291215595
+Cycles = 262248466
 
 [ SouthernIslands ]
 RealTime = 0.00 [s]
-Instructions = 1532640
+Instructions = 1639104
 InstructionsPerSecond = 0
 NDRangeCount = 4
 WorkGroupCount = 2052
 BranchInstructions = 32784
 LDSInstructions = 16384
-ScalarALUInstructions = 180496
+ScalarALUInstructions = 270576
 ScalarMemInstructions = 82144
-VectorALUInstructions = 1163488
+VectorALUInstructions = 1179872
 VectorMemInstructions = 57344
-SimTime = 6563956.31 [ns]
+SimTime = 6715622.78 [ns]
 Frequency = 925 [MHz]
-Cycles = 6072115
+Cycles = 6212417
 CyclesPerSecond = 0
 
 [ x86 ]
-RealTime = 1825.50 [s]
-Instructions = 520040867
-InstructionsPerSecond = 284876
+RealTime = 1218.49 [s]
+Instructions = 479396490
+InstructionsPerSecond = 393435
 Contexts = 3
 Memory = 55754752
 FastForwardInstructions = 0
-CommittedInstructions = 517161380
-CommittedInstructionsPerCycle = 1.776
-CommittedMicroInstructions = 754319345
-CommittedMicroInstructionsPerCycle = 2.59
+CommittedInstructions = 476552051
+CommittedInstructionsPerCycle = 1.817
+CommittedMicroInstructions = 700277785
+CommittedMicroInstructionsPerCycle = 2.67
 BranchPredictionAccuracy = 0.9996
-SimTime = 291215177.00 [ns]
+SimTime = 262248050.00 [ns]
 Frequency = 1000 [MHz]
-Cycles = 291215177
-CyclesPerSecond = 159526
+Cycles = 262248050
+CyclesPerSecond = 215224
+

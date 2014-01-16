@@ -23,26 +23,26 @@ BlockSize = 256
 Latency = 2
 Ports = 2
 
-Accesses = 7343832
-Hits = 5269162
-Misses = 2074670
-HitRatio = 0.7175
-Evictions = 2074188
+Accesses = 7437555
+Hits = 6593800
+Misses = 843755
+HitRatio = 0.8866
+Evictions = 843270
 Retries = 0
 
-Reads = 10558067
+Reads = 10862669
 ReadRetries = 0
-BlockingReads = 6427272
+BlockingReads = 6509093
 NonBlockingReads = 0
-ReadHits = 4357768
-ReadMisses = 6200299
+ReadHits = 5671280
+ReadMisses = 5191389
 
-Writes = 1418015
+Writes = 1432200
 WriteRetries = 0
-BlockingWrites = 916560
+BlockingWrites = 928462
 NonBlockingWrites = 0
-WriteHits = 911394
-WriteMisses = 506621
+WriteHits = 922520
+WriteMisses = 509680
 
 NCWrites = 0
 NCWriteRetries = 0
@@ -54,16 +54,16 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 7343832
-NoRetryHits = 5269162
-NoRetryMisses = 2074670
-NoRetryHitRatio = 0.7175
-NoRetryReads = 6427272
-NoRetryReadHits = 4357768
-NoRetryReadMisses = 2069504
-NoRetryWrites = 916560
-NoRetryWriteHits = 911394
-NoRetryWriteMisses = 5166
+NoRetryAccesses = 7437555
+NoRetryHits = 6593800
+NoRetryMisses = 843755
+NoRetryHitRatio = 0.8866
+NoRetryReads = 6509093
+NoRetryReadHits = 5671280
+NoRetryReadMisses = 837813
+NoRetryWrites = 928462
+NoRetryWriteHits = 922520
+NoRetryWriteMisses = 5942
 NoRetryNCWrites = 0
 NoRetryNCWriteHits = 0
 NoRetryNCWriteMisses = 0
@@ -78,25 +78,25 @@ BlockSize = 256
 Latency = 2
 Ports = 2
 
-Accesses = 760315
-Hits = 755297
-Misses = 5018
-HitRatio = 0.9934
-Evictions = 3478
+Accesses = 713065
+Hits = 707012
+Misses = 6053
+HitRatio = 0.9915
+Evictions = 4418
 Retries = 0
 
-Reads = 795709
+Reads = 749705
 ReadRetries = 0
-BlockingReads = 758962
+BlockingReads = 711639
 NonBlockingReads = 0
-ReadHits = 753944
-ReadMisses = 41765
+ReadHits = 705586
+ReadMisses = 44119
 
-Writes = 1353
+Writes = 1426
 WriteRetries = 0
-BlockingWrites = 1353
+BlockingWrites = 1426
 NonBlockingWrites = 0
-WriteHits = 1353
+WriteHits = 1426
 WriteMisses = 0
 
 NCWrites = 0
@@ -109,15 +109,15 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 760315
-NoRetryHits = 755297
-NoRetryMisses = 5018
-NoRetryHitRatio = 0.9934
-NoRetryReads = 758962
-NoRetryReadHits = 753944
-NoRetryReadMisses = 5018
-NoRetryWrites = 1353
-NoRetryWriteHits = 1353
+NoRetryAccesses = 713065
+NoRetryHits = 707012
+NoRetryMisses = 6053
+NoRetryHitRatio = 0.9915
+NoRetryReads = 711639
+NoRetryReadHits = 705586
+NoRetryReadMisses = 6053
+NoRetryWrites = 1426
+NoRetryWriteHits = 1426
 NoRetryWriteMisses = 0
 NoRetryNCWrites = 0
 NoRetryNCWriteHits = 0
@@ -133,26 +133,26 @@ BlockSize = 256
 Latency = 200
 Ports = 2
 
-Accesses = 4157349
-Hits = 4144717
-Misses = 12632
-HitRatio = 0.997
-Evictions = 11608
+Accesses = 1697469
+Hits = 1684513
+Misses = 12956
+HitRatio = 0.9924
+Evictions = 11932
 Retries = 0
 
-Reads = 2074517
+Reads = 843839
 ReadRetries = 0
 BlockingReads = 0
-NonBlockingReads = 2074517
-ReadHits = 2066538
-ReadMisses = 7979
+NonBlockingReads = 843839
+ReadHits = 835403
+ReadMisses = 8436
 
-Writes = 2082832
+Writes = 853630
 WriteRetries = 0
 BlockingWrites = 0
-NonBlockingWrites = 2082832
-WriteHits = 2078179
-WriteMisses = 4653
+NonBlockingWrites = 853630
+WriteHits = 849110
+WriteMisses = 4520
 
 NCWrites = 0
 NCWriteRetries = 0
@@ -164,16 +164,16 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 4157349
-NoRetryHits = 4144717
-NoRetryMisses = 12632
-NoRetryHitRatio = 0.997
-NoRetryReads = 2074517
-NoRetryReadHits = 2066538
-NoRetryReadMisses = 7979
-NoRetryWrites = 2082832
-NoRetryWriteHits = 2078179
-NoRetryWriteMisses = 4653
+NoRetryAccesses = 1697469
+NoRetryHits = 1684513
+NoRetryMisses = 12956
+NoRetryHitRatio = 0.9924
+NoRetryReads = 843839
+NoRetryReadHits = 835403
+NoRetryReadMisses = 8436
+NoRetryWrites = 853630
+NoRetryWriteHits = 849110
+NoRetryWriteMisses = 4520
 NoRetryNCWrites = 0
 NoRetryNCWriteHits = 0
 NoRetryNCWriteMisses = 0
@@ -188,19 +188,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3204
-Hits = 814
-Misses = 2390
-HitRatio = 0.2541
-Evictions = 1127
-Retries = 754
+Accesses = 2509
+Hits = 552
+Misses = 1957
+HitRatio = 0.22
+Evictions = 1118
+Retries = 438
 
-Reads = 18391
-ReadRetries = 754
-BlockingReads = 3156
+Reads = 17695
+ReadRetries = 438
+BlockingReads = 2461
 NonBlockingReads = 0
-ReadHits = 814
-ReadMisses = 17577
+ReadHits = 552
+ReadMisses = 17143
 
 Writes = 0
 WriteRetries = 0
@@ -219,13 +219,13 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2164
-NoRetryHits = 814
-NoRetryMisses = 1350
-NoRetryHitRatio = 0.3762
-NoRetryReads = 2116
-NoRetryReadHits = 814
-NoRetryReadMisses = 1302
+NoRetryAccesses = 1894
+NoRetryHits = 552
+NoRetryMisses = 1342
+NoRetryHitRatio = 0.2914
+NoRetryReads = 1846
+NoRetryReadHits = 552
+NoRetryReadMisses = 1294
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -243,19 +243,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3281
-Hits = 759
-Misses = 2522
-HitRatio = 0.2313
-Evictions = 1093
-Retries = 855
+Accesses = 2963
+Hits = 724
+Misses = 2239
+HitRatio = 0.2443
+Evictions = 1134
+Retries = 620
 
-Reads = 18468
-ReadRetries = 855
-BlockingReads = 3233
+Reads = 18149
+ReadRetries = 620
+BlockingReads = 2915
 NonBlockingReads = 0
-ReadHits = 759
-ReadMisses = 17709
+ReadHits = 724
+ReadMisses = 17425
 
 Writes = 0
 WriteRetries = 0
@@ -274,13 +274,13 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2073
-NoRetryHits = 759
-NoRetryMisses = 1314
-NoRetryHitRatio = 0.3661
-NoRetryReads = 2025
-NoRetryReadHits = 759
-NoRetryReadMisses = 1266
+NoRetryAccesses = 2087
+NoRetryHits = 724
+NoRetryMisses = 1363
+NoRetryHitRatio = 0.3469
+NoRetryReads = 2039
+NoRetryReadHits = 724
+NoRetryReadMisses = 1315
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -298,19 +298,74 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3275
-Hits = 934
-Misses = 2341
-HitRatio = 0.2852
-Evictions = 1100
-Retries = 697
+Accesses = 2504
+Hits = 707
+Misses = 1797
+HitRatio = 0.2823
+Evictions = 1110
+Retries = 362
 
-Reads = 18430
-ReadRetries = 681
-BlockingReads = 3195
+Reads = 17690
+ReadRetries = 362
+BlockingReads = 2456
 NonBlockingReads = 0
-ReadHits = 934
-ReadMisses = 17496
+ReadHits = 707
+ReadMisses = 16983
+
+Writes = 0
+WriteRetries = 0
+BlockingWrites = 0
+NonBlockingWrites = 0
+WriteHits = 0
+WriteMisses = 0
+
+NCWrites = 272
+NCWriteRetries = 0
+NCBlockingWrites = 48
+NCNonBlockingWrites = 0
+NCWriteHits = 0
+NCWriteMisses = 272
+Prefetches = 0
+PrefetchAborts = 0
+UselessPrefetches = 0
+
+NoRetryAccesses = 2023
+NoRetryHits = 707
+NoRetryMisses = 1316
+NoRetryHitRatio = 0.3495
+NoRetryReads = 1975
+NoRetryReadHits = 707
+NoRetryReadMisses = 1268
+NoRetryWrites = 0
+NoRetryWriteHits = 0
+NoRetryWriteMisses = 0
+NoRetryNCWrites = 48
+NoRetryNCWriteHits = 0
+NoRetryNCWriteMisses = 48
+
+
+[ mod-gpu-l1-3 ]
+
+Sets = 16
+Assoc = 2
+Policy = LRU
+BlockSize = 256
+Latency = 1
+Ports = 2
+
+Accesses = 3101
+Hits = 773
+Misses = 2328
+HitRatio = 0.2493
+Evictions = 1125
+Retries = 669
+
+Reads = 18255
+ReadRetries = 653
+BlockingReads = 3021
+NonBlockingReads = 0
+ReadHits = 773
+ReadMisses = 17482
 
 Writes = 0
 WriteRetries = 0
@@ -329,13 +384,13 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2258
-NoRetryHits = 934
-NoRetryMisses = 1324
-NoRetryHitRatio = 0.4136
-NoRetryReads = 2210
-NoRetryReadHits = 934
-NoRetryReadMisses = 1276
+NoRetryAccesses = 2096
+NoRetryHits = 773
+NoRetryMisses = 1323
+NoRetryHitRatio = 0.3688
+NoRetryReads = 2048
+NoRetryReadHits = 773
+NoRetryReadMisses = 1275
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -344,7 +399,7 @@ NoRetryNCWriteHits = 0
 NoRetryNCWriteMisses = 48
 
 
-[ mod-gpu-l1-3 ]
+[ mod-gpu-l1-4 ]
 
 Sets = 16
 Assoc = 2
@@ -353,19 +408,184 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3530
-Hits = 753
-Misses = 2777
-HitRatio = 0.2133
-Evictions = 1101
-Retries = 1128
+Accesses = 2721
+Hits = 674
+Misses = 2047
+HitRatio = 0.2477
+Evictions = 1109
+Retries = 496
 
-Reads = 18717
-ReadRetries = 1128
-BlockingReads = 3482
+Reads = 17907
+ReadRetries = 496
+BlockingReads = 2673
 NonBlockingReads = 0
-ReadHits = 753
-ReadMisses = 17964
+ReadHits = 674
+ReadMisses = 17233
+
+Writes = 0
+WriteRetries = 0
+BlockingWrites = 0
+NonBlockingWrites = 0
+WriteHits = 0
+WriteMisses = 0
+
+NCWrites = 272
+NCWriteRetries = 0
+NCBlockingWrites = 48
+NCNonBlockingWrites = 0
+NCWriteHits = 0
+NCWriteMisses = 272
+Prefetches = 0
+PrefetchAborts = 0
+UselessPrefetches = 0
+
+NoRetryAccesses = 2017
+NoRetryHits = 674
+NoRetryMisses = 1343
+NoRetryHitRatio = 0.3342
+NoRetryReads = 1969
+NoRetryReadHits = 674
+NoRetryReadMisses = 1295
+NoRetryWrites = 0
+NoRetryWriteHits = 0
+NoRetryWriteMisses = 0
+NoRetryNCWrites = 48
+NoRetryNCWriteHits = 0
+NoRetryNCWriteMisses = 48
+
+
+[ mod-gpu-l1-5 ]
+
+Sets = 16
+Assoc = 2
+Policy = LRU
+BlockSize = 256
+Latency = 1
+Ports = 2
+
+Accesses = 2681
+Hits = 660
+Misses = 2021
+HitRatio = 0.2462
+Evictions = 1112
+Retries = 466
+
+Reads = 17867
+ReadRetries = 466
+BlockingReads = 2633
+NonBlockingReads = 0
+ReadHits = 660
+ReadMisses = 17207
+
+Writes = 0
+WriteRetries = 0
+BlockingWrites = 0
+NonBlockingWrites = 0
+WriteHits = 0
+WriteMisses = 0
+
+NCWrites = 272
+NCWriteRetries = 0
+NCBlockingWrites = 48
+NCNonBlockingWrites = 0
+NCWriteHits = 0
+NCWriteMisses = 272
+Prefetches = 0
+PrefetchAborts = 0
+UselessPrefetches = 0
+
+NoRetryAccesses = 1989
+NoRetryHits = 660
+NoRetryMisses = 1329
+NoRetryHitRatio = 0.3318
+NoRetryReads = 1941
+NoRetryReadHits = 660
+NoRetryReadMisses = 1281
+NoRetryWrites = 0
+NoRetryWriteHits = 0
+NoRetryWriteMisses = 0
+NoRetryNCWrites = 48
+NoRetryNCWriteHits = 0
+NoRetryNCWriteMisses = 48
+
+
+[ mod-gpu-l1-6 ]
+
+Sets = 16
+Assoc = 2
+Policy = LRU
+BlockSize = 256
+Latency = 1
+Ports = 2
+
+Accesses = 2437
+Hits = 628
+Misses = 1809
+HitRatio = 0.2577
+Evictions = 1107
+Retries = 338
+
+Reads = 17591
+ReadRetries = 322
+BlockingReads = 2357
+NonBlockingReads = 0
+ReadHits = 628
+ReadMisses = 16963
+
+Writes = 0
+WriteRetries = 0
+BlockingWrites = 0
+NonBlockingWrites = 0
+WriteHits = 0
+WriteMisses = 0
+
+NCWrites = 304
+NCWriteRetries = 16
+NCBlockingWrites = 80
+NCNonBlockingWrites = 0
+NCWriteHits = 0
+NCWriteMisses = 304
+Prefetches = 0
+PrefetchAborts = 0
+UselessPrefetches = 0
+
+NoRetryAccesses = 1949
+NoRetryHits = 628
+NoRetryMisses = 1321
+NoRetryHitRatio = 0.3222
+NoRetryReads = 1901
+NoRetryReadHits = 628
+NoRetryReadMisses = 1273
+NoRetryWrites = 0
+NoRetryWriteHits = 0
+NoRetryWriteMisses = 0
+NoRetryNCWrites = 48
+NoRetryNCWriteHits = 0
+NoRetryNCWriteMisses = 48
+
+
+[ mod-gpu-l1-7 ]
+
+Sets = 16
+Assoc = 2
+Policy = LRU
+BlockSize = 256
+Latency = 1
+Ports = 2
+
+Accesses = 2732
+Hits = 729
+Misses = 2003
+HitRatio = 0.2668
+Evictions = 1124
+Retries = 513
+
+Reads = 17918
+ReadRetries = 513
+BlockingReads = 2684
+NonBlockingReads = 0
+ReadHits = 729
+ReadMisses = 17189
 
 Writes = 0
 WriteRetries = 0
@@ -385,232 +605,12 @@ PrefetchAborts = 0
 UselessPrefetches = 0
 
 NoRetryAccesses = 2064
-NoRetryHits = 753
-NoRetryMisses = 1311
-NoRetryHitRatio = 0.3648
+NoRetryHits = 729
+NoRetryMisses = 1335
+NoRetryHitRatio = 0.3532
 NoRetryReads = 2016
-NoRetryReadHits = 753
-NoRetryReadMisses = 1263
-NoRetryWrites = 0
-NoRetryWriteHits = 0
-NoRetryWriteMisses = 0
-NoRetryNCWrites = 48
-NoRetryNCWriteHits = 0
-NoRetryNCWriteMisses = 48
-
-
-[ mod-gpu-l1-4 ]
-
-Sets = 16
-Assoc = 2
-Policy = LRU
-BlockSize = 256
-Latency = 1
-Ports = 2
-
-Accesses = 3133
-Hits = 758
-Misses = 2375
-HitRatio = 0.2419
-Evictions = 1118
-Retries = 709
-
-Reads = 18320
-ReadRetries = 709
-BlockingReads = 3085
-NonBlockingReads = 0
-ReadHits = 758
-ReadMisses = 17562
-
-Writes = 0
-WriteRetries = 0
-BlockingWrites = 0
-NonBlockingWrites = 0
-WriteHits = 0
-WriteMisses = 0
-
-NCWrites = 272
-NCWriteRetries = 0
-NCBlockingWrites = 48
-NCNonBlockingWrites = 0
-NCWriteHits = 0
-NCWriteMisses = 272
-Prefetches = 0
-PrefetchAborts = 0
-UselessPrefetches = 0
-
-NoRetryAccesses = 2109
-NoRetryHits = 758
-NoRetryMisses = 1351
-NoRetryHitRatio = 0.3594
-NoRetryReads = 2061
-NoRetryReadHits = 758
-NoRetryReadMisses = 1303
-NoRetryWrites = 0
-NoRetryWriteHits = 0
-NoRetryWriteMisses = 0
-NoRetryNCWrites = 48
-NoRetryNCWriteHits = 0
-NoRetryNCWriteMisses = 48
-
-
-[ mod-gpu-l1-5 ]
-
-Sets = 16
-Assoc = 2
-Policy = LRU
-BlockSize = 256
-Latency = 1
-Ports = 2
-
-Accesses = 2975
-Hits = 750
-Misses = 2225
-HitRatio = 0.2521
-Evictions = 1087
-Retries = 627
-
-Reads = 18162
-ReadRetries = 627
-BlockingReads = 2927
-NonBlockingReads = 0
-ReadHits = 750
-ReadMisses = 17412
-
-Writes = 0
-WriteRetries = 0
-BlockingWrites = 0
-NonBlockingWrites = 0
-WriteHits = 0
-WriteMisses = 0
-
-NCWrites = 272
-NCWriteRetries = 0
-NCBlockingWrites = 48
-NCNonBlockingWrites = 0
-NCWriteHits = 0
-NCWriteMisses = 272
-Prefetches = 0
-PrefetchAborts = 0
-UselessPrefetches = 0
-
-NoRetryAccesses = 2065
-NoRetryHits = 750
-NoRetryMisses = 1315
-NoRetryHitRatio = 0.3632
-NoRetryReads = 2017
-NoRetryReadHits = 750
-NoRetryReadMisses = 1267
-NoRetryWrites = 0
-NoRetryWriteHits = 0
-NoRetryWriteMisses = 0
-NoRetryNCWrites = 48
-NoRetryNCWriteHits = 0
-NoRetryNCWriteMisses = 48
-
-
-[ mod-gpu-l1-6 ]
-
-Sets = 16
-Assoc = 2
-Policy = LRU
-BlockSize = 256
-Latency = 1
-Ports = 2
-
-Accesses = 2992
-Hits = 787
-Misses = 2205
-HitRatio = 0.263
-Evictions = 1096
-Retries = 643
-
-Reads = 18179
-ReadRetries = 643
-BlockingReads = 2944
-NonBlockingReads = 0
-ReadHits = 787
-ReadMisses = 17392
-
-Writes = 0
-WriteRetries = 0
-BlockingWrites = 0
-NonBlockingWrites = 0
-WriteHits = 0
-WriteMisses = 0
-
-NCWrites = 272
-NCWriteRetries = 0
-NCBlockingWrites = 48
-NCNonBlockingWrites = 0
-NCWriteHits = 0
-NCWriteMisses = 272
-Prefetches = 0
-PrefetchAborts = 0
-UselessPrefetches = 0
-
-NoRetryAccesses = 2104
-NoRetryHits = 787
-NoRetryMisses = 1317
-NoRetryHitRatio = 0.374
-NoRetryReads = 2056
-NoRetryReadHits = 787
-NoRetryReadMisses = 1269
-NoRetryWrites = 0
-NoRetryWriteHits = 0
-NoRetryWriteMisses = 0
-NoRetryNCWrites = 48
-NoRetryNCWriteHits = 0
-NoRetryNCWriteMisses = 48
-
-
-[ mod-gpu-l1-7 ]
-
-Sets = 16
-Assoc = 2
-Policy = LRU
-BlockSize = 256
-Latency = 1
-Ports = 2
-
-Accesses = 2954
-Hits = 753
-Misses = 2201
-HitRatio = 0.2549
-Evictions = 1092
-Retries = 620
-
-Reads = 18109
-ReadRetries = 604
-BlockingReads = 2874
-NonBlockingReads = 0
-ReadHits = 753
-ReadMisses = 17356
-
-Writes = 0
-WriteRetries = 0
-BlockingWrites = 0
-NonBlockingWrites = 0
-WriteHits = 0
-WriteMisses = 0
-
-NCWrites = 304
-NCWriteRetries = 16
-NCBlockingWrites = 80
-NCNonBlockingWrites = 0
-NCWriteHits = 0
-NCWriteMisses = 304
-Prefetches = 0
-PrefetchAborts = 0
-UselessPrefetches = 0
-
-NoRetryAccesses = 2071
-NoRetryHits = 753
-NoRetryMisses = 1318
-NoRetryHitRatio = 0.3636
-NoRetryReads = 2023
-NoRetryReadHits = 753
-NoRetryReadMisses = 1270
+NoRetryReadHits = 729
+NoRetryReadMisses = 1287
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -628,19 +628,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3460
-Hits = 803
-Misses = 2657
-HitRatio = 0.2321
-Evictions = 1108
-Retries = 1022
+Accesses = 2869
+Hits = 669
+Misses = 2200
+HitRatio = 0.2332
+Evictions = 1089
+Retries = 584
 
-Reads = 18621
-ReadRetries = 996
-BlockingReads = 3386
+Reads = 18055
+ReadRetries = 584
+BlockingReads = 2821
 NonBlockingReads = 0
-ReadHits = 803
-ReadMisses = 17818
+ReadHits = 669
+ReadMisses = 17386
 
 Writes = 0
 WriteRetries = 0
@@ -649,23 +649,23 @@ NonBlockingWrites = 0
 WriteHits = 0
 WriteMisses = 0
 
-NCWrites = 298
-NCWriteRetries = 26
-NCBlockingWrites = 74
+NCWrites = 272
+NCWriteRetries = 0
+NCBlockingWrites = 48
 NCNonBlockingWrites = 0
 NCWriteHits = 0
-NCWriteMisses = 298
+NCWriteMisses = 272
 Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2126
-NoRetryHits = 803
-NoRetryMisses = 1323
-NoRetryHitRatio = 0.3777
-NoRetryReads = 2078
-NoRetryReadHits = 803
-NoRetryReadMisses = 1275
+NoRetryAccesses = 1995
+NoRetryHits = 669
+NoRetryMisses = 1326
+NoRetryHitRatio = 0.3353
+NoRetryReads = 1947
+NoRetryReadHits = 669
+NoRetryReadMisses = 1278
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -683,19 +683,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 2919
-Hits = 665
-Misses = 2254
-HitRatio = 0.2278
-Evictions = 1108
-Retries = 663
+Accesses = 2787
+Hits = 763
+Misses = 2024
+HitRatio = 0.2738
+Evictions = 1104
+Retries = 462
 
-Reads = 18074
-ReadRetries = 647
-BlockingReads = 2839
+Reads = 17973
+ReadRetries = 462
+BlockingReads = 2739
 NonBlockingReads = 0
-ReadHits = 665
-ReadMisses = 17409
+ReadHits = 763
+ReadMisses = 17210
 
 Writes = 0
 WriteRetries = 0
@@ -704,23 +704,23 @@ NonBlockingWrites = 0
 WriteHits = 0
 WriteMisses = 0
 
-NCWrites = 304
-NCWriteRetries = 16
-NCBlockingWrites = 80
+NCWrites = 272
+NCWriteRetries = 0
+NCBlockingWrites = 48
 NCNonBlockingWrites = 0
 NCWriteHits = 0
-NCWriteMisses = 304
+NCWriteMisses = 272
 Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 1996
-NoRetryHits = 665
-NoRetryMisses = 1331
-NoRetryHitRatio = 0.3332
-NoRetryReads = 1948
-NoRetryReadHits = 665
-NoRetryReadMisses = 1283
+NoRetryAccesses = 2091
+NoRetryHits = 763
+NoRetryMisses = 1328
+NoRetryHitRatio = 0.3649
+NoRetryReads = 2043
+NoRetryReadHits = 763
+NoRetryReadMisses = 1280
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -738,19 +738,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3016
-Hits = 784
-Misses = 2232
-HitRatio = 0.2599
-Evictions = 1107
-Retries = 636
+Accesses = 2933
+Hits = 724
+Misses = 2209
+HitRatio = 0.2468
+Evictions = 1099
+Retries = 669
 
-Reads = 18171
-ReadRetries = 620
-BlockingReads = 2936
+Reads = 18087
+ReadRetries = 653
+BlockingReads = 2853
 NonBlockingReads = 0
-ReadHits = 784
-ReadMisses = 17387
+ReadHits = 724
+ReadMisses = 17363
 
 Writes = 0
 WriteRetries = 0
@@ -769,13 +769,13 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2107
-NoRetryHits = 784
-NoRetryMisses = 1323
-NoRetryHitRatio = 0.3721
-NoRetryReads = 2059
-NoRetryReadHits = 784
-NoRetryReadMisses = 1275
+NoRetryAccesses = 2022
+NoRetryHits = 724
+NoRetryMisses = 1298
+NoRetryHitRatio = 0.3581
+NoRetryReads = 1974
+NoRetryReadHits = 724
+NoRetryReadMisses = 1250
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -793,19 +793,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3038
-Hits = 730
-Misses = 2308
-HitRatio = 0.2403
-Evictions = 1106
-Retries = 756
+Accesses = 2954
+Hits = 826
+Misses = 2128
+HitRatio = 0.2796
+Evictions = 1095
+Retries = 574
 
-Reads = 18225
-ReadRetries = 756
-BlockingReads = 2990
+Reads = 18140
+ReadRetries = 574
+BlockingReads = 2906
 NonBlockingReads = 0
-ReadHits = 730
-ReadMisses = 17495
+ReadHits = 826
+ReadMisses = 17314
 
 Writes = 0
 WriteRetries = 0
@@ -824,13 +824,13 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2051
-NoRetryHits = 730
-NoRetryMisses = 1321
-NoRetryHitRatio = 0.3559
-NoRetryReads = 2003
-NoRetryReadHits = 730
-NoRetryReadMisses = 1273
+NoRetryAccesses = 2145
+NoRetryHits = 826
+NoRetryMisses = 1319
+NoRetryHitRatio = 0.3851
+NoRetryReads = 2097
+NoRetryReadHits = 826
+NoRetryReadMisses = 1271
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -848,19 +848,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3332
-Hits = 883
-Misses = 2449
-HitRatio = 0.265
-Evictions = 1107
-Retries = 805
+Accesses = 3163
+Hits = 792
+Misses = 2371
+HitRatio = 0.2504
+Evictions = 1095
+Retries = 716
 
-Reads = 18519
-ReadRetries = 805
-BlockingReads = 3284
+Reads = 18349
+ReadRetries = 716
+BlockingReads = 3115
 NonBlockingReads = 0
-ReadHits = 883
-ReadMisses = 17636
+ReadHits = 792
+ReadMisses = 17557
 
 Writes = 0
 WriteRetries = 0
@@ -879,13 +879,13 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2209
-NoRetryHits = 883
-NoRetryMisses = 1326
-NoRetryHitRatio = 0.3997
-NoRetryReads = 2161
-NoRetryReadHits = 883
-NoRetryReadMisses = 1278
+NoRetryAccesses = 2113
+NoRetryHits = 792
+NoRetryMisses = 1321
+NoRetryHitRatio = 0.3748
+NoRetryReads = 2065
+NoRetryReadHits = 792
+NoRetryReadMisses = 1273
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -903,19 +903,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3162
-Hits = 736
-Misses = 2426
-HitRatio = 0.2328
-Evictions = 1069
-Retries = 803
+Accesses = 3057
+Hits = 727
+Misses = 2330
+HitRatio = 0.2378
+Evictions = 1092
+Retries = 728
 
-Reads = 18257
-ReadRetries = 711
-BlockingReads = 3022
+Reads = 18170
+ReadRetries = 655
+BlockingReads = 2936
 NonBlockingReads = 0
-ReadHits = 736
-ReadMisses = 17521
+ReadHits = 727
+ReadMisses = 17443
 
 Writes = 0
 WriteRetries = 0
@@ -924,23 +924,23 @@ NonBlockingWrites = 0
 WriteHits = 0
 WriteMisses = 0
 
-NCWrites = 364
-NCWriteRetries = 92
-NCBlockingWrites = 140
+NCWrites = 345
+NCWriteRetries = 73
+NCBlockingWrites = 121
 NCNonBlockingWrites = 0
 NCWriteHits = 0
-NCWriteMisses = 364
+NCWriteMisses = 345
 Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2045
-NoRetryHits = 736
-NoRetryMisses = 1309
-NoRetryHitRatio = 0.3599
-NoRetryReads = 1997
-NoRetryReadHits = 736
-NoRetryReadMisses = 1261
+NoRetryAccesses = 2046
+NoRetryHits = 727
+NoRetryMisses = 1319
+NoRetryHitRatio = 0.3553
+NoRetryReads = 1998
+NoRetryReadHits = 727
+NoRetryReadMisses = 1271
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -958,19 +958,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 3083
-Hits = 691
-Misses = 2392
-HitRatio = 0.2241
-Evictions = 1109
-Retries = 828
+Accesses = 3419
+Hits = 905
+Misses = 2514
+HitRatio = 0.2647
+Evictions = 1107
+Retries = 868
 
-Reads = 18270
-ReadRetries = 828
-BlockingReads = 3035
+Reads = 18595
+ReadRetries = 863
+BlockingReads = 3361
 NonBlockingReads = 0
-ReadHits = 691
-ReadMisses = 17579
+ReadHits = 905
+ReadMisses = 17690
 
 Writes = 0
 WriteRetries = 0
@@ -979,23 +979,23 @@ NonBlockingWrites = 0
 WriteHits = 0
 WriteMisses = 0
 
-NCWrites = 272
-NCWriteRetries = 0
-NCBlockingWrites = 48
+NCWrites = 282
+NCWriteRetries = 5
+NCBlockingWrites = 58
 NCNonBlockingWrites = 0
 NCWriteHits = 0
-NCWriteMisses = 272
+NCWriteMisses = 282
 Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2006
-NoRetryHits = 691
-NoRetryMisses = 1315
-NoRetryHitRatio = 0.3445
-NoRetryReads = 1958
-NoRetryReadHits = 691
-NoRetryReadMisses = 1267
+NoRetryAccesses = 2206
+NoRetryHits = 905
+NoRetryMisses = 1301
+NoRetryHitRatio = 0.4102
+NoRetryReads = 2158
+NoRetryReadHits = 905
+NoRetryReadMisses = 1253
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -1013,19 +1013,19 @@ BlockSize = 256
 Latency = 1
 Ports = 2
 
-Accesses = 2897
-Hits = 715
-Misses = 2182
-HitRatio = 0.2468
-Evictions = 1078
-Retries = 667
+Accesses = 3168
+Hits = 740
+Misses = 2428
+HitRatio = 0.2336
+Evictions = 1085
+Retries = 801
 
-Reads = 18084
-ReadRetries = 667
-BlockingReads = 2849
+Reads = 18332
+ReadRetries = 790
+BlockingReads = 3098
 NonBlockingReads = 0
-ReadHits = 715
-ReadMisses = 17369
+ReadHits = 740
+ReadMisses = 17592
 
 Writes = 0
 WriteRetries = 0
@@ -1034,23 +1034,23 @@ NonBlockingWrites = 0
 WriteHits = 0
 WriteMisses = 0
 
-NCWrites = 272
-NCWriteRetries = 0
-NCBlockingWrites = 48
+NCWrites = 294
+NCWriteRetries = 11
+NCBlockingWrites = 70
 NCNonBlockingWrites = 0
 NCWriteHits = 0
-NCWriteMisses = 272
+NCWriteMisses = 294
 Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 2005
-NoRetryHits = 715
-NoRetryMisses = 1290
-NoRetryHitRatio = 0.3566
-NoRetryReads = 1957
-NoRetryReadHits = 715
-NoRetryReadMisses = 1242
+NoRetryAccesses = 2056
+NoRetryHits = 740
+NoRetryMisses = 1316
+NoRetryHitRatio = 0.3599
+NoRetryReads = 2008
+NoRetryReadHits = 740
+NoRetryReadMisses = 1268
 NoRetryWrites = 0
 NoRetryWriteHits = 0
 NoRetryWriteMisses = 0
@@ -1288,25 +1288,25 @@ BlockSize = 256
 Latency = 20
 Ports = 4
 
-Accesses = 12684
-Hits = 12491
+Accesses = 12066
+Hits = 11873
 Misses = 193
-HitRatio = 0.9848
+HitRatio = 0.984
 Evictions = 0
 Retries = 0
 
-Reads = 7703
+Reads = 7091
 ReadRetries = 0
 BlockingReads = 0
-NonBlockingReads = 7703
-ReadHits = 7510
+NonBlockingReads = 7091
+ReadHits = 6898
 ReadMisses = 193
 
-Writes = 4981
+Writes = 4975
 WriteRetries = 0
 BlockingWrites = 0
-NonBlockingWrites = 4981
-WriteHits = 4981
+NonBlockingWrites = 4975
+WriteHits = 4975
 WriteMisses = 0
 
 NCWrites = 0
@@ -1319,15 +1319,15 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 12684
-NoRetryHits = 12491
+NoRetryAccesses = 12066
+NoRetryHits = 11873
 NoRetryMisses = 193
-NoRetryHitRatio = 0.9848
-NoRetryReads = 7703
-NoRetryReadHits = 7510
+NoRetryHitRatio = 0.984
+NoRetryReads = 7091
+NoRetryReadHits = 6898
 NoRetryReadMisses = 193
-NoRetryWrites = 4981
-NoRetryWriteHits = 4981
+NoRetryWrites = 4975
+NoRetryWriteHits = 4975
 NoRetryWriteMisses = 0
 NoRetryNCWrites = 0
 NoRetryNCWriteHits = 0
@@ -1343,25 +1343,25 @@ BlockSize = 256
 Latency = 20
 Ports = 4
 
-Accesses = 11565
-Hits = 11372
+Accesses = 10883
+Hits = 10690
 Misses = 193
-HitRatio = 0.9833
+HitRatio = 0.9823
 Evictions = 0
 Retries = 0
 
-Reads = 6612
+Reads = 5986
 ReadRetries = 0
 BlockingReads = 0
-NonBlockingReads = 6612
-ReadHits = 6419
+NonBlockingReads = 5986
+ReadHits = 5793
 ReadMisses = 193
 
-Writes = 4953
+Writes = 4897
 WriteRetries = 0
 BlockingWrites = 0
-NonBlockingWrites = 4953
-WriteHits = 4953
+NonBlockingWrites = 4897
+WriteHits = 4897
 WriteMisses = 0
 
 NCWrites = 0
@@ -1374,15 +1374,15 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 11565
-NoRetryHits = 11372
+NoRetryAccesses = 10883
+NoRetryHits = 10690
 NoRetryMisses = 193
-NoRetryHitRatio = 0.9833
-NoRetryReads = 6612
-NoRetryReadHits = 6419
+NoRetryHitRatio = 0.9823
+NoRetryReads = 5986
+NoRetryReadHits = 5793
 NoRetryReadMisses = 193
-NoRetryWrites = 4953
-NoRetryWriteHits = 4953
+NoRetryWrites = 4897
+NoRetryWriteHits = 4897
 NoRetryWriteMisses = 0
 NoRetryNCWrites = 0
 NoRetryNCWriteHits = 0
@@ -1398,25 +1398,25 @@ BlockSize = 256
 Latency = 20
 Ports = 4
 
-Accesses = 12355
-Hits = 12163
+Accesses = 11644
+Hits = 11452
 Misses = 192
-HitRatio = 0.9845
+HitRatio = 0.9835
 Evictions = 0
 Retries = 0
 
-Reads = 7396
+Reads = 6671
 ReadRetries = 0
 BlockingReads = 0
-NonBlockingReads = 7396
-ReadHits = 7204
+NonBlockingReads = 6671
+ReadHits = 6479
 ReadMisses = 192
 
-Writes = 4959
+Writes = 4973
 WriteRetries = 0
 BlockingWrites = 0
-NonBlockingWrites = 4959
-WriteHits = 4959
+NonBlockingWrites = 4973
+WriteHits = 4973
 WriteMisses = 0
 
 NCWrites = 0
@@ -1429,15 +1429,15 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 12355
-NoRetryHits = 12163
+NoRetryAccesses = 11644
+NoRetryHits = 11452
 NoRetryMisses = 192
-NoRetryHitRatio = 0.9845
-NoRetryReads = 7396
-NoRetryReadHits = 7204
+NoRetryHitRatio = 0.9835
+NoRetryReads = 6671
+NoRetryReadHits = 6479
 NoRetryReadMisses = 192
-NoRetryWrites = 4959
-NoRetryWriteHits = 4959
+NoRetryWrites = 4973
+NoRetryWriteHits = 4973
 NoRetryWriteMisses = 0
 NoRetryNCWrites = 0
 NoRetryNCWriteHits = 0
@@ -1453,25 +1453,25 @@ BlockSize = 256
 Latency = 20
 Ports = 4
 
-Accesses = 11333
-Hits = 11141
+Accesses = 10633
+Hits = 10441
 Misses = 192
-HitRatio = 0.9831
+HitRatio = 0.9819
 Evictions = 0
 Retries = 0
 
-Reads = 6428
+Reads = 5775
 ReadRetries = 0
 BlockingReads = 0
-NonBlockingReads = 6428
-ReadHits = 6236
+NonBlockingReads = 5775
+ReadHits = 5583
 ReadMisses = 192
 
-Writes = 4905
+Writes = 4858
 WriteRetries = 0
 BlockingWrites = 0
-NonBlockingWrites = 4905
-WriteHits = 4905
+NonBlockingWrites = 4858
+WriteHits = 4858
 WriteMisses = 0
 
 NCWrites = 0
@@ -1484,15 +1484,15 @@ Prefetches = 0
 PrefetchAborts = 0
 UselessPrefetches = 0
 
-NoRetryAccesses = 11333
-NoRetryHits = 11141
+NoRetryAccesses = 10633
+NoRetryHits = 10441
 NoRetryMisses = 192
-NoRetryHitRatio = 0.9831
-NoRetryReads = 6428
-NoRetryReadHits = 6236
+NoRetryHitRatio = 0.9819
+NoRetryReads = 5775
+NoRetryReadHits = 5583
 NoRetryReadMisses = 192
-NoRetryWrites = 4905
-NoRetryWriteHits = 4905
+NoRetryWrites = 4858
+NoRetryWriteHits = 4858
 NoRetryWriteMisses = 0
 NoRetryNCWrites = 0
 NoRetryNCWriteHits = 0
@@ -1720,84 +1720,84 @@ NoRetryNCWriteMisses = 0
 
 
 [ Network.cpu-net.General ]
-Transfers = 8318058
-AverageMessageSize = 72.24
-AverageLatency = 4.7550
+Transfers = 3398490
+AverageMessageSize = 73.30
+AverageLatency = 4.7812
 
 [ Network.cpu-net.Link.link_<mod-l1-0.out_buf_0>_<Switch.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 4149144
-TransferredBytes = 35115456
-BusyCycles = 4156653
-BytesPerCycle = 0.1705
-Utilization = 0.0007
+TransferredMessages = 1687334
+TransferredBytes = 17875248
+BusyCycles = 1704430
+BytesPerCycle = 0.1389
+Utilization = 0.0005
 
 [ Network.cpu-net.Link.link_<Switch.out_buf_0>_<mod-l1-0.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 4149144
-TransferredBytes = 564308672
-BusyCycles = 6223814
-BytesPerCycle = 2.7396
-Utilization = 0.0107
+TransferredMessages = 1687334
+TransferredBytes = 229499952
+BusyCycles = 2531089
+BytesPerCycle = 1.7832
+Utilization = 0.0070
 
 [ Network.cpu-net.Link.link_<mod-il1-0.out_buf_0>_<Switch.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 9935
-TransferredBytes = 89976
-BusyCycles = 9976
-BytesPerCycle = 0.0004
+TransferredMessages = 11971
+TransferredBytes = 106264
+BusyCycles = 12012
+BytesPerCycle = 0.0008
 Utilization = 0.0000
 
 [ Network.cpu-net.Link.link_<Switch.out_buf_1>_<mod-il1-0.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 9935
-TransferredBytes = 1362808
-BusyCycles = 14948
-BytesPerCycle = 0.0066
+TransferredMessages = 11971
+TransferredBytes = 1638424
+BusyCycles = 17997
+BytesPerCycle = 0.0127
 Utilization = 0.0000
 
 [ Network.cpu-net.Link.link_<mod-mm-0.out_buf_0>_<Switch.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 4158979
-TransferredBytes = 565657880
-BusyCycles = 6238612
-BytesPerCycle = 2.7461
-Utilization = 0.0107
+TransferredMessages = 1699185
+TransferredBytes = 231122056
+BusyCycles = 2548906
+BytesPerCycle = 1.7958
+Utilization = 0.0070
 
 [ Network.cpu-net.Link.link_<Switch.out_buf_2>_<mod-mm-0.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 4158979
-TransferredBytes = 35191832
-BusyCycles = 4166479
-BytesPerCycle = 0.1708
-Utilization = 0.0007
+TransferredMessages = 1699185
+TransferredBytes = 17965192
+BusyCycles = 1716262
+BytesPerCycle = 0.1396
+Utilization = 0.0005
 
 [ Network.cpu-net.Node.mod-l1-0 ]
-SentMessages = 4149144
-SentBytes = 35115456
-SendRate = 0.1705
-ReceivedMessages = 4149144
-ReceivedBytes = 564308672
-ReceiveRate = 2.7396
+SentMessages = 1687334
+SentBytes = 17875248
+SendRate = 0.1389
+ReceivedMessages = 1687334
+ReceivedBytes = 229499952
+ReceiveRate = 1.7832
 in_buf_0.Size = 1024 
-in_buf_0.MessageOccupancy = 0.03
-in_buf_0.ByteOccupancy = 5.40
-in_buf_0.Utilization = 0.0053
+in_buf_0.MessageOccupancy = 0.02
+in_buf_0.ByteOccupancy = 3.51
+in_buf_0.Utilization = 0.0034
 out_buf_0.Size = 1024 
-out_buf_0.MessageOccupancy = 0.02
-out_buf_0.ByteOccupancy = 0.17
-out_buf_0.Utilization = 0.0002
+out_buf_0.MessageOccupancy = 0.01
+out_buf_0.ByteOccupancy = 0.14
+out_buf_0.Utilization = 0.0001
 
 [ Network.cpu-net.Node.mod-il1-0 ]
-SentMessages = 9935
-SentBytes = 89976
-SendRate = 0.0004
-ReceivedMessages = 9935
-ReceivedBytes = 1362808
-ReceiveRate = 0.0066
+SentMessages = 11971
+SentBytes = 106264
+SendRate = 0.0008
+ReceivedMessages = 11971
+ReceivedBytes = 1638424
+ReceiveRate = 0.0127
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
-in_buf_0.ByteOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.03
 in_buf_0.Utilization = 0.0000
 out_buf_0.Size = 1024 
 out_buf_0.MessageOccupancy = 0.00
@@ -1805,58 +1805,58 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.cpu-net.Node.mod-mm-0 ]
-SentMessages = 4158979
-SentBytes = 565657880
-SendRate = 2.7461
-ReceivedMessages = 4158979
-ReceivedBytes = 35191832
-ReceiveRate = 0.1708
+SentMessages = 1699185
+SentBytes = 231122056
+SendRate = 1.7958
+ReceivedMessages = 1699185
+ReceivedBytes = 17965192
+ReceiveRate = 0.1396
 in_buf_0.Size = 1024 
-in_buf_0.MessageOccupancy = 0.02
-in_buf_0.ByteOccupancy = 0.18
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.17
 in_buf_0.Utilization = 0.0002
 out_buf_0.Size = 1024 
-out_buf_0.MessageOccupancy = 0.02
-out_buf_0.ByteOccupancy = 2.77
-out_buf_0.Utilization = 0.0027
+out_buf_0.MessageOccupancy = 0.01
+out_buf_0.ByteOccupancy = 1.91
+out_buf_0.Utilization = 0.0019
 
 [ Network.cpu-net.Node.Switch ]
 Config.BandWidth = 256
-SentMessages = 8318058
-SentBytes = 600863312
-SendRate = 2.9170
-ReceivedMessages = 8318058
-ReceivedBytes = 600863312
-ReceiveRate = 2.9170
+SentMessages = 3398490
+SentBytes = 249103568
+SendRate = 1.9355
+ReceivedMessages = 3398490
+ReceivedBytes = 249103568
+ReceiveRate = 1.9355
 in_buf_0.Size = 1024 
-in_buf_0.MessageOccupancy = 0.02
-in_buf_0.ByteOccupancy = 0.18
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.17
 in_buf_0.Utilization = 0.0002
 in_buf_1.Size = 1024 
 in_buf_1.MessageOccupancy = 0.00
 in_buf_1.ByteOccupancy = 0.00
 in_buf_1.Utilization = 0.0000
 in_buf_2.Size = 1024 
-in_buf_2.MessageOccupancy = 0.03
-in_buf_2.ByteOccupancy = 5.41
-in_buf_2.Utilization = 0.0053
+in_buf_2.MessageOccupancy = 0.02
+in_buf_2.ByteOccupancy = 3.54
+in_buf_2.Utilization = 0.0035
 out_buf_0.Size = 1024 
-out_buf_0.MessageOccupancy = 0.03
-out_buf_0.ByteOccupancy = 5.40
-out_buf_0.Utilization = 0.0053
+out_buf_0.MessageOccupancy = 0.02
+out_buf_0.ByteOccupancy = 3.51
+out_buf_0.Utilization = 0.0034
 out_buf_1.Size = 1024 
 out_buf_1.MessageOccupancy = 0.00
-out_buf_1.ByteOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.03
 out_buf_1.Utilization = 0.0000
 out_buf_2.Size = 1024 
-out_buf_2.MessageOccupancy = 0.02
-out_buf_2.ByteOccupancy = 0.18
+out_buf_2.MessageOccupancy = 0.01
+out_buf_2.ByteOccupancy = 0.17
 out_buf_2.Utilization = 0.0002
 
 [ Network.gpu-mem.General ]
 Transfers = 1540
 AverageMessageSize = 136.00
-AverageLatency = 5.7688
+AverageLatency = 5.7104
 
 [ Network.gpu-mem.Link.link_<mod-gpu-l2-0.out_buf_0>_<Switch.in_buf_0> ]
 Config.Bandwidth = 256
@@ -1871,7 +1871,7 @@ Config.Bandwidth = 256
 TransferredMessages = 193
 TransferredBytes = 50952
 BusyCycles = 386
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<mod-gpu-l2-1.out_buf_0>_<Switch.in_buf_1> ]
@@ -1887,7 +1887,7 @@ Config.Bandwidth = 256
 TransferredMessages = 193
 TransferredBytes = 50952
 BusyCycles = 386
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<mod-gpu-l2-2.out_buf_0>_<Switch.in_buf_2> ]
@@ -1903,7 +1903,7 @@ Config.Bandwidth = 256
 TransferredMessages = 192
 TransferredBytes = 50688
 BusyCycles = 384
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<mod-gpu-l2-3.out_buf_0>_<Switch.in_buf_3> ]
@@ -1919,7 +1919,7 @@ Config.Bandwidth = 256
 TransferredMessages = 192
 TransferredBytes = 50688
 BusyCycles = 384
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<mod-mm-1.out_buf_0>_<Switch.in_buf_4> ]
@@ -1927,7 +1927,7 @@ Config.Bandwidth = 256
 TransferredMessages = 193
 TransferredBytes = 50952
 BusyCycles = 386
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<Switch.out_buf_4>_<mod-mm-1.in_buf_0> ]
@@ -1943,7 +1943,7 @@ Config.Bandwidth = 256
 TransferredMessages = 193
 TransferredBytes = 50952
 BusyCycles = 386
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<Switch.out_buf_5>_<mod-mm-2.in_buf_0> ]
@@ -1959,7 +1959,7 @@ Config.Bandwidth = 256
 TransferredMessages = 192
 TransferredBytes = 50688
 BusyCycles = 384
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<Switch.out_buf_6>_<mod-mm-3.in_buf_0> ]
@@ -1975,7 +1975,7 @@ Config.Bandwidth = 256
 TransferredMessages = 192
 TransferredBytes = 50688
 BusyCycles = 384
-BytesPerCycle = 0.0002
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.gpu-mem.Link.link_<Switch.out_buf_7>_<mod-mm-4.in_buf_0> ]
@@ -1992,7 +1992,7 @@ SentBytes = 1544
 SendRate = 0.0000
 ReceivedMessages = 193
 ReceivedBytes = 50952
-ReceiveRate = 0.0002
+ReceiveRate = 0.0004
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -2008,7 +2008,7 @@ SentBytes = 1544
 SendRate = 0.0000
 ReceivedMessages = 193
 ReceivedBytes = 50952
-ReceiveRate = 0.0002
+ReceiveRate = 0.0004
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -2024,7 +2024,7 @@ SentBytes = 1536
 SendRate = 0.0000
 ReceivedMessages = 192
 ReceivedBytes = 50688
-ReceiveRate = 0.0002
+ReceiveRate = 0.0004
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -2040,7 +2040,7 @@ SentBytes = 1536
 SendRate = 0.0000
 ReceivedMessages = 192
 ReceivedBytes = 50688
-ReceiveRate = 0.0002
+ReceiveRate = 0.0004
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -2053,7 +2053,7 @@ out_buf_0.Utilization = 0.0000
 [ Network.gpu-mem.Node.mod-mm-1 ]
 SentMessages = 193
 SentBytes = 50952
-SendRate = 0.0002
+SendRate = 0.0004
 ReceivedMessages = 193
 ReceivedBytes = 1544
 ReceiveRate = 0.0000
@@ -2069,7 +2069,7 @@ out_buf_0.Utilization = 0.0000
 [ Network.gpu-mem.Node.mod-mm-2 ]
 SentMessages = 193
 SentBytes = 50952
-SendRate = 0.0002
+SendRate = 0.0004
 ReceivedMessages = 193
 ReceivedBytes = 1544
 ReceiveRate = 0.0000
@@ -2085,7 +2085,7 @@ out_buf_0.Utilization = 0.0000
 [ Network.gpu-mem.Node.mod-mm-3 ]
 SentMessages = 192
 SentBytes = 50688
-SendRate = 0.0002
+SendRate = 0.0004
 ReceivedMessages = 192
 ReceivedBytes = 1536
 ReceiveRate = 0.0000
@@ -2101,7 +2101,7 @@ out_buf_0.Utilization = 0.0000
 [ Network.gpu-mem.Node.mod-mm-4 ]
 SentMessages = 192
 SentBytes = 50688
-SendRate = 0.0002
+SendRate = 0.0004
 ReceivedMessages = 192
 ReceivedBytes = 1536
 ReceiveRate = 0.0000
@@ -2118,10 +2118,10 @@ out_buf_0.Utilization = 0.0000
 Config.BandWidth = 256
 SentMessages = 1540
 SentBytes = 209440
-SendRate = 0.0010
+SendRate = 0.0016
 ReceivedMessages = 1540
 ReceivedBytes = 209440
-ReceiveRate = 0.0010
+ReceiveRate = 0.0016
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00

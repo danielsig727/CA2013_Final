@@ -1,246 +1,246 @@
 [ Network.net0.General ]
-Transfers = 108206
-AverageMessageSize = 51.47
-AverageLatency = 17.5718
+Transfers = 101240
+AverageMessageSize = 54.71
+AverageLatency = 16.1251
 
 [ Network.net0.Link.link_<sw0.out_buf_0>_<sw1.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 223
-TransferredBytes = 36344
-BusyCycles = 358
-BytesPerCycle = 0.0002
+TransferredMessages = 138
+TransferredBytes = 7760
+BusyCycles = 164
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_0>_<sw0.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 223
-TransferredBytes = 24312
-BusyCycles = 311
-BytesPerCycle = 0.0001
+TransferredMessages = 138
+TransferredBytes = 29776
+BusyCycles = 250
+BytesPerCycle = 0.0002
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_1>_<sw2.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 68
-TransferredBytes = 9760
-BusyCycles = 104
+TransferredMessages = 51
+TransferredBytes = 5784
+BusyCycles = 72
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_0>_<sw0.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 68
-TransferredBytes = 8736
-BusyCycles = 100
-BytesPerCycle = 0.0000
+TransferredMessages = 51
+TransferredBytes = 8088
+BusyCycles = 81
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_2>_<sw3.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 84
-TransferredBytes = 11424
-BusyCycles = 126
+TransferredMessages = 49
+TransferredBytes = 7048
+BusyCycles = 75
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_0>_<sw0.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 84
-TransferredBytes = 11424
-BusyCycles = 126
-BytesPerCycle = 0.0001
+TransferredMessages = 49
+TransferredBytes = 6280
+BusyCycles = 72
+BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_3>_<sw4.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 0
-TransferredBytes = 0
-BusyCycles = 0
+TransferredMessages = 5
+TransferredBytes = 296
+BusyCycles = 6
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_0>_<sw0.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 0
-TransferredBytes = 0
-BusyCycles = 0
+TransferredMessages = 5
+TransferredBytes = 1064
+BusyCycles = 9
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_4>_<sw5.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 1604
-TransferredBytes = 79136
-BusyCycles = 1863
-BytesPerCycle = 0.0004
+TransferredMessages = 1427
+TransferredBytes = 82840
+BusyCycles = 1706
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_0>_<sw0.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 1604
-TransferredBytes = 69920
-BusyCycles = 1827
-BytesPerCycle = 0.0003
+TransferredMessages = 1427
+TransferredBytes = 74136
+BusyCycles = 1672
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_5>_<sw6.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 623
-TransferredBytes = 58744
-BusyCycles = 833
-BytesPerCycle = 0.0003
+TransferredMessages = 628
+TransferredBytes = 55456
+BusyCycles = 825
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_0>_<sw0.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 623
-TransferredBytes = 4984
-BusyCycles = 623
+TransferredMessages = 628
+TransferredBytes = 5024
+BusyCycles = 628
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_6>_<sw7.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 616
-TransferredBytes = 53056
-BusyCycles = 804
-BytesPerCycle = 0.0003
+TransferredMessages = 632
+TransferredBytes = 61632
+BusyCycles = 853
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_0>_<sw0.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 616
-TransferredBytes = 4928
-BusyCycles = 616
+TransferredMessages = 632
+TransferredBytes = 5056
+BusyCycles = 632
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_7>_<sw8.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 1121
-TransferredBytes = 71176
-BusyCycles = 1364
-BytesPerCycle = 0.0003
+TransferredMessages = 957
+TransferredBytes = 72424
+BusyCycles = 1210
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_0>_<sw0.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 1121
-TransferredBytes = 11016
-BusyCycles = 1129
+TransferredMessages = 957
+TransferredBytes = 9704
+BusyCycles = 965
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_8>_<sw9.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 1020
-TransferredBytes = 78048
-BusyCycles = 1293
-BytesPerCycle = 0.0004
+TransferredMessages = 914
+TransferredBytes = 74384
+BusyCycles = 1176
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_0>_<sw0.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 1020
-TransferredBytes = 10208
-BusyCycles = 1028
-BytesPerCycle = 0.0000
+TransferredMessages = 914
+TransferredBytes = 9616
+BusyCycles = 923
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_9>_<sw10.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 1591
-TransferredBytes = 63160
-BusyCycles = 1788
-BytesPerCycle = 0.0003
+TransferredMessages = 1554
+TransferredBytes = 64144
+BusyCycles = 1756
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_0>_<sw0.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 1591
-TransferredBytes = 78520
-BusyCycles = 1848
-BytesPerCycle = 0.0004
+TransferredMessages = 1554
+TransferredBytes = 76432
+BusyCycles = 1804
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_10>_<sw11.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 688
-TransferredBytes = 56960
-BusyCycles = 889
-BytesPerCycle = 0.0003
+TransferredMessages = 664
+TransferredBytes = 54976
+BusyCycles = 858
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_0>_<sw0.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 688
-TransferredBytes = 5504
-BusyCycles = 688
+TransferredMessages = 664
+TransferredBytes = 5312
+BusyCycles = 664
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_11>_<sw12.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 1027
-TransferredBytes = 73752
-BusyCycles = 1283
-BytesPerCycle = 0.0004
+TransferredMessages = 977
+TransferredBytes = 77448
+BusyCycles = 1249
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_0>_<sw0.in_buf_11> ]
 Config.Bandwidth = 256
-TransferredMessages = 1027
-TransferredBytes = 10520
-BusyCycles = 1036
+TransferredMessages = 977
+TransferredBytes = 9864
+BusyCycles = 985
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_12>_<sw13.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 971
-TransferredBytes = 68184
-BusyCycles = 1207
-BytesPerCycle = 0.0003
+TransferredMessages = 948
+TransferredBytes = 71328
+BusyCycles = 1197
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_0>_<sw0.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 971
-TransferredBytes = 10840
-BusyCycles = 983
+TransferredMessages = 948
+TransferredBytes = 10144
+BusyCycles = 958
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_13>_<sw14.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 798
-TransferredBytes = 55280
-BusyCycles = 989
-BytesPerCycle = 0.0003
+TransferredMessages = 716
+TransferredBytes = 53856
+BusyCycles = 904
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_0>_<sw0.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 798
-TransferredBytes = 6384
-BusyCycles = 798
+TransferredMessages = 716
+TransferredBytes = 5728
+BusyCycles = 716
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_14>_<sw15.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 1482
-TransferredBytes = 59984
-BusyCycles = 1670
-BytesPerCycle = 0.0003
+TransferredMessages = 1253
+TransferredBytes = 57640
+BusyCycles = 1439
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_0>_<sw0.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 1482
-TransferredBytes = 68944
-BusyCycles = 1705
-BytesPerCycle = 0.0003
+TransferredMessages = 1253
+TransferredBytes = 67112
+BusyCycles = 1476
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_15>_<sw16.in_buf_0> ]
@@ -309,66 +309,66 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_1>_<sw2.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 101
-TransferredBytes = 13864
-BusyCycles = 152
+TransferredMessages = 63
+TransferredBytes = 8952
+BusyCycles = 96
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_1>_<sw1.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 101
-TransferredBytes = 13608
-BusyCycles = 151
+TransferredMessages = 63
+TransferredBytes = 8184
+BusyCycles = 93
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_2>_<sw3.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 54
-TransferredBytes = 7344
-BusyCycles = 81
+TransferredMessages = 65
+TransferredBytes = 6408
+BusyCycles = 88
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_1>_<sw1.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 54
-TransferredBytes = 7344
-BusyCycles = 81
-BytesPerCycle = 0.0000
+TransferredMessages = 65
+TransferredBytes = 11272
+BusyCycles = 107
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_3>_<sw4.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 8
-TransferredBytes = 832
-BusyCycles = 11
+TransferredMessages = 6
+TransferredBytes = 560
+BusyCycles = 8
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_1>_<sw1.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 8
-TransferredBytes = 1344
-BusyCycles = 13
+TransferredMessages = 6
+TransferredBytes = 1072
+BusyCycles = 10
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_4>_<sw5.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 646
-TransferredBytes = 5424
-BusyCycles = 647
+TransferredMessages = 561
+TransferredBytes = 4744
+BusyCycles = 562
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_1>_<sw1.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 646
-TransferredBytes = 54064
-BusyCycles = 837
-BytesPerCycle = 0.0003
+TransferredMessages = 561
+TransferredBytes = 66440
+BusyCycles = 803
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_5>_<sw6.in_buf_1> ]
@@ -405,50 +405,50 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_7>_<sw8.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 12
-TransferredBytes = 2144
-BusyCycles = 20
+TransferredMessages = 1
+TransferredBytes = 264
+BusyCycles = 2
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_1>_<sw1.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 12
-TransferredBytes = 1120
-BusyCycles = 16
+TransferredMessages = 1
+TransferredBytes = 8
+BusyCycles = 1
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_8>_<sw9.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 1056
-BusyCycles = 8
+TransferredMessages = 34
+TransferredBytes = 528
+BusyCycles = 35
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_1>_<sw1.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 32
-BusyCycles = 4
-BytesPerCycle = 0.0000
+TransferredMessages = 34
+TransferredBytes = 8720
+BusyCycles = 67
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_9>_<sw10.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 1004
-TransferredBytes = 10080
-BusyCycles = 1012
-BytesPerCycle = 0.0000
+TransferredMessages = 966
+TransferredBytes = 9776
+BusyCycles = 974
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_1>_<sw1.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 1004
-TransferredBytes = 76640
-BusyCycles = 1272
-BytesPerCycle = 0.0004
+TransferredMessages = 966
+TransferredBytes = 78640
+BusyCycles = 1243
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_10>_<sw11.in_buf_1> ]
@@ -469,33 +469,33 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_11>_<sw12.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 9
-TransferredBytes = 1608
-BusyCycles = 15
+TransferredMessages = 1
+TransferredBytes = 8
+BusyCycles = 1
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_1>_<sw1.in_buf_11> ]
 Config.Bandwidth = 256
-TransferredMessages = 9
-TransferredBytes = 840
-BusyCycles = 12
+TransferredMessages = 1
+TransferredBytes = 264
+BusyCycles = 2
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_12>_<sw13.in_buf_1> ]
 Config.Bandwidth = 256
 TransferredMessages = 2
-TransferredBytes = 16
-BusyCycles = 2
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_1>_<sw1.in_buf_12> ]
 Config.Bandwidth = 256
 TransferredMessages = 2
-TransferredBytes = 528
-BusyCycles = 4
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -517,18 +517,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_14>_<sw15.in_buf_1> ]
 Config.Bandwidth = 256
-TransferredMessages = 575
-TransferredBytes = 4600
-BusyCycles = 575
+TransferredMessages = 537
+TransferredBytes = 4296
+BusyCycles = 537
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_1>_<sw1.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 575
-TransferredBytes = 50936
-BusyCycles = 756
-BytesPerCycle = 0.0002
+TransferredMessages = 537
+TransferredBytes = 62920
+BusyCycles = 766
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_15>_<sw16.in_buf_1> ]
@@ -597,18 +597,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_2>_<sw3.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 283
-TransferredBytes = 50136
-BusyCycles = 470
-BytesPerCycle = 0.0002
+TransferredMessages = 226
+TransferredBytes = 32784
+BusyCycles = 347
+BytesPerCycle = 0.0003
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_2>_<sw2.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 283
-TransferredBytes = 26840
-BusyCycles = 379
-BytesPerCycle = 0.0001
+TransferredMessages = 226
+TransferredBytes = 28688
+BusyCycles = 331
+BytesPerCycle = 0.0002
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_3>_<sw4.in_buf_2> ]
@@ -629,49 +629,49 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_4>_<sw5.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 974
-TransferredBytes = 9840
-BusyCycles = 982
-BytesPerCycle = 0.0000
+TransferredMessages = 844
+TransferredBytes = 8800
+BusyCycles = 852
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_2>_<sw2.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 974
-TransferredBytes = 74096
-BusyCycles = 1233
-BytesPerCycle = 0.0004
+TransferredMessages = 844
+TransferredBytes = 76128
+BusyCycles = 1115
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_5>_<sw6.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 21
-TransferredBytes = 4520
-BusyCycles = 38
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_2>_<sw2.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 21
-TransferredBytes = 1192
-BusyCycles = 25
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_6>_<sw7.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 2
-TransferredBytes = 528
-BusyCycles = 4
+TransferredMessages = 16
+TransferredBytes = 4224
+BusyCycles = 32
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_2>_<sw2.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 2
-TransferredBytes = 16
-BusyCycles = 2
+TransferredMessages = 16
+TransferredBytes = 128
+BusyCycles = 16
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -709,33 +709,33 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_9>_<sw10.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 660
-TransferredBytes = 5536
-BusyCycles = 661
+TransferredMessages = 542
+TransferredBytes = 4336
+BusyCycles = 542
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_2>_<sw2.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 660
-TransferredBytes = 60064
-BusyCycles = 874
-BytesPerCycle = 0.0003
+TransferredMessages = 542
+TransferredBytes = 59376
+BusyCycles = 757
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_10>_<sw11.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 5
-TransferredBytes = 808
-BusyCycles = 8
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_2>_<sw2.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 5
-TransferredBytes = 552
-BusyCycles = 7
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -789,18 +789,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_14>_<sw15.in_buf_2> ]
 Config.Bandwidth = 256
-TransferredMessages = 920
-TransferredBytes = 9408
-BusyCycles = 928
-BytesPerCycle = 0.0000
+TransferredMessages = 860
+TransferredBytes = 8928
+BusyCycles = 868
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_2>_<sw2.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 920
-TransferredBytes = 70592
-BusyCycles = 1167
-BytesPerCycle = 0.0003
+TransferredMessages = 860
+TransferredBytes = 74720
+BusyCycles = 1125
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_15>_<sw16.in_buf_2> ]
@@ -885,48 +885,48 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_4>_<sw5.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 1193
-TransferredBytes = 11592
-BusyCycles = 1201
+TransferredMessages = 934
+TransferredBytes = 9520
+BusyCycles = 942
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_3>_<sw3.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 1193
-TransferredBytes = 72520
-BusyCycles = 1439
-BytesPerCycle = 0.0004
+TransferredMessages = 934
+TransferredBytes = 77616
+BusyCycles = 1208
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_5>_<sw6.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 9
-TransferredBytes = 840
-BusyCycles = 12
+TransferredMessages = 2
+TransferredBytes = 528
+BusyCycles = 4
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_3>_<sw3.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 9
-TransferredBytes = 1608
-BusyCycles = 15
+TransferredMessages = 2
+TransferredBytes = 16
+BusyCycles = 2
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_6>_<sw7.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 5
-TransferredBytes = 808
-BusyCycles = 8
+TransferredMessages = 7
+TransferredBytes = 1848
+BusyCycles = 14
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_3>_<sw3.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 5
-TransferredBytes = 552
+TransferredMessages = 7
+TransferredBytes = 56
 BusyCycles = 7
 BytesPerCycle = 0.0000
 Utilization = 0.0000
@@ -965,33 +965,33 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_9>_<sw10.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 599
-TransferredBytes = 5048
-BusyCycles = 600
+TransferredMessages = 590
+TransferredBytes = 4720
+BusyCycles = 590
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_3>_<sw3.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 599
-TransferredBytes = 52152
-BusyCycles = 784
-BytesPerCycle = 0.0003
+TransferredMessages = 590
+TransferredBytes = 59504
+BusyCycles = 804
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_10>_<sw11.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 6
-TransferredBytes = 560
-BusyCycles = 8
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_3>_<sw3.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 6
-TransferredBytes = 1072
-BusyCycles = 10
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -1029,34 +1029,34 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_13>_<sw14.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 1
-TransferredBytes = 8
-BusyCycles = 1
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_3>_<sw3.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 1
-TransferredBytes = 264
-BusyCycles = 2
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_14>_<sw15.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 1168
-TransferredBytes = 11392
-BusyCycles = 1176
+TransferredMessages = 933
+TransferredBytes = 9512
+BusyCycles = 941
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_3>_<sw3.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 1168
-TransferredBytes = 73088
-BusyCycles = 1417
-BytesPerCycle = 0.0004
+TransferredMessages = 933
+TransferredBytes = 75816
+BusyCycles = 1200
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_15>_<sw16.in_buf_3> ]
@@ -1125,98 +1125,98 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_4>_<sw5.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 745
-TransferredBytes = 24136
-BusyCycles = 816
+TransferredMessages = 608
+TransferredBytes = 13824
+BusyCycles = 643
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_4>_<sw4.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 745
-TransferredBytes = 74056
-BusyCycles = 1011
-BytesPerCycle = 0.0004
+TransferredMessages = 608
+TransferredBytes = 71168
+BusyCycles = 867
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_5>_<sw6.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 134
-TransferredBytes = 15408
-BusyCycles = 190
+TransferredMessages = 75
+TransferredBytes = 11608
+BusyCycles = 118
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_4>_<sw4.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 134
-TransferredBytes = 21040
-BusyCycles = 212
+TransferredMessages = 75
+TransferredBytes = 8792
+BusyCycles = 107
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_6>_<sw7.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 86
-TransferredBytes = 10672
-BusyCycles = 125
+TransferredMessages = 72
+TransferredBytes = 9792
+BusyCycles = 108
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_4>_<sw4.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 86
-TransferredBytes = 12720
-BusyCycles = 133
+TransferredMessages = 72
+TransferredBytes = 9792
+BusyCycles = 108
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_7>_<sw8.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 2
-TransferredBytes = 272
-BusyCycles = 3
+TransferredMessages = 5
+TransferredBytes = 1064
+BusyCycles = 9
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_4>_<sw4.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 2
-TransferredBytes = 272
-BusyCycles = 3
+TransferredMessages = 5
+TransferredBytes = 296
+BusyCycles = 6
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_8>_<sw9.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 1056
-BusyCycles = 8
+TransferredMessages = 10
+TransferredBytes = 848
+BusyCycles = 13
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_4>_<sw4.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 32
-BusyCycles = 4
+TransferredMessages = 10
+TransferredBytes = 1872
+BusyCycles = 17
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_9>_<sw10.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 906
-TransferredBytes = 9296
-BusyCycles = 914
-BytesPerCycle = 0.0000
+TransferredMessages = 911
+TransferredBytes = 9336
+BusyCycles = 919
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_4>_<sw4.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 906
-TransferredBytes = 72272
-BusyCycles = 1160
-BytesPerCycle = 0.0004
+TransferredMessages = 911
+TransferredBytes = 78712
+BusyCycles = 1190
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_10>_<sw11.in_buf_4> ]
@@ -1237,33 +1237,33 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_11>_<sw12.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 5
-TransferredBytes = 1064
-BusyCycles = 9
+TransferredMessages = 2
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_4>_<sw4.in_buf_11> ]
 Config.Bandwidth = 256
-TransferredMessages = 5
-TransferredBytes = 296
-BusyCycles = 6
+TransferredMessages = 2
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_12>_<sw13.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 544
-BusyCycles = 6
+TransferredMessages = 10
+TransferredBytes = 2384
+BusyCycles = 19
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_4>_<sw4.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 544
-BusyCycles = 6
+TransferredMessages = 10
+TransferredBytes = 336
+BusyCycles = 11
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -1285,18 +1285,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_14>_<sw15.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 598
-TransferredBytes = 4784
-BusyCycles = 598
+TransferredMessages = 520
+TransferredBytes = 4160
+BusyCycles = 520
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_4>_<sw4.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 598
-TransferredBytes = 59312
-BusyCycles = 811
-BytesPerCycle = 0.0003
+TransferredMessages = 520
+TransferredBytes = 63808
+BusyCycles = 753
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_15>_<sw16.in_buf_4> ]
@@ -1365,162 +1365,162 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_5>_<sw6.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 79
-TransferredBytes = 9592
-BusyCycles = 114
-BytesPerCycle = 0.0000
+TransferredMessages = 73
+TransferredBytes = 8264
+BusyCycles = 103
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_5>_<sw5.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 79
-TransferredBytes = 11896
-BusyCycles = 123
+TransferredMessages = 73
+TransferredBytes = 11592
+BusyCycles = 116
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_6>_<sw7.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 112
-TransferredBytes = 14464
-BusyCycles = 165
-BytesPerCycle = 0.0001
+TransferredMessages = 148
+TransferredBytes = 19360
+BusyCycles = 219
+BytesPerCycle = 0.0002
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_5>_<sw5.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 112
-TransferredBytes = 16000
-BusyCycles = 171
-BytesPerCycle = 0.0001
+TransferredMessages = 148
+TransferredBytes = 20896
+BusyCycles = 225
+BytesPerCycle = 0.0002
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_7>_<sw8.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 25
-TransferredBytes = 5832
-BusyCycles = 47
+TransferredMessages = 2
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_5>_<sw5.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 25
-TransferredBytes = 968
-BusyCycles = 28
+TransferredMessages = 2
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_8>_<sw9.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 3
-TransferredBytes = 792
-BusyCycles = 6
+TransferredMessages = 2
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_5>_<sw5.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 3
-TransferredBytes = 24
+TransferredMessages = 2
+TransferredBytes = 272
 BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_9>_<sw10.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 1859
-TransferredBytes = 90904
-BusyCycles = 2156
-BytesPerCycle = 0.0004
+TransferredMessages = 1740
+TransferredBytes = 82528
+BusyCycles = 2008
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_5>_<sw5.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 1859
-TransferredBytes = 83480
-BusyCycles = 2127
-BytesPerCycle = 0.0004
+TransferredMessages = 1740
+TransferredBytes = 85344
+BusyCycles = 2019
+BytesPerCycle = 0.0007
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_10>_<sw11.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 941
-TransferredBytes = 75624
-BusyCycles = 1207
-BytesPerCycle = 0.0004
+TransferredMessages = 877
+TransferredBytes = 79208
+BusyCycles = 1159
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_5>_<sw5.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 941
-TransferredBytes = 9576
-BusyCycles = 949
-BytesPerCycle = 0.0000
+TransferredMessages = 877
+TransferredBytes = 9064
+BusyCycles = 885
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_11>_<sw12.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 614
-TransferredBytes = 63024
-BusyCycles = 841
-BytesPerCycle = 0.0003
+TransferredMessages = 590
+TransferredBytes = 59504
+BusyCycles = 804
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_5>_<sw5.in_buf_11> ]
 Config.Bandwidth = 256
-TransferredMessages = 614
-TransferredBytes = 5168
-BusyCycles = 615
+TransferredMessages = 590
+TransferredBytes = 4720
+BusyCycles = 590
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_12>_<sw13.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 574
-TransferredBytes = 59120
-BusyCycles = 787
-BytesPerCycle = 0.0003
+TransferredMessages = 585
+TransferredBytes = 57672
+BusyCycles = 792
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_5>_<sw5.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 574
-TransferredBytes = 4848
-BusyCycles = 575
+TransferredMessages = 585
+TransferredBytes = 4680
+BusyCycles = 585
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_13>_<sw14.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 789
-TransferredBytes = 78760
-BusyCycles = 1072
-BytesPerCycle = 0.0004
+TransferredMessages = 931
+TransferredBytes = 78360
+BusyCycles = 1208
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_5>_<sw5.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 789
-TransferredBytes = 8360
-BusyCycles = 797
-BytesPerCycle = 0.0000
+TransferredMessages = 931
+TransferredBytes = 9496
+BusyCycles = 939
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_14>_<sw15.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 1356
-TransferredBytes = 87392
-BusyCycles = 1655
-BytesPerCycle = 0.0004
+TransferredMessages = 1477
+TransferredBytes = 80424
+BusyCycles = 1745
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_5>_<sw5.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 1356
-TransferredBytes = 68192
-BusyCycles = 1580
-BytesPerCycle = 0.0003
+TransferredMessages = 1477
+TransferredBytes = 66344
+BusyCycles = 1690
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_15>_<sw16.in_buf_5> ]
@@ -1589,17 +1589,17 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_6>_<sw7.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 150
-TransferredBytes = 17328
-BusyCycles = 213
+TransferredMessages = 89
+TransferredBytes = 7880
+BusyCycles = 117
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_6>_<sw6.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 150
-TransferredBytes = 23472
-BusyCycles = 237
+TransferredMessages = 89
+TransferredBytes = 16328
+BusyCycles = 150
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
@@ -1637,33 +1637,33 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_9>_<sw10.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 620
-TransferredBytes = 5216
-BusyCycles = 621
-BytesPerCycle = 0.0000
+TransferredMessages = 582
+TransferredBytes = 6448
+BusyCycles = 589
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_6>_<sw6.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 620
-TransferredBytes = 58464
-BusyCycles = 829
-BytesPerCycle = 0.0003
+TransferredMessages = 582
+TransferredBytes = 57904
+BusyCycles = 790
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_10>_<sw11.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 7
-TransferredBytes = 824
-BusyCycles = 10
+TransferredMessages = 3
+TransferredBytes = 536
+BusyCycles = 5
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_6>_<sw6.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 7
-TransferredBytes = 1080
-BusyCycles = 11
+TransferredMessages = 3
+TransferredBytes = 280
+BusyCycles = 4
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -1701,34 +1701,34 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_13>_<sw14.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 10
-TransferredBytes = 2384
-BusyCycles = 19
+TransferredMessages = 1
+TransferredBytes = 264
+BusyCycles = 2
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_6>_<sw6.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 10
-TransferredBytes = 336
-BusyCycles = 11
+TransferredMessages = 1
+TransferredBytes = 8
+BusyCycles = 1
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_14>_<sw15.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 898
-TransferredBytes = 9232
-BusyCycles = 906
-BytesPerCycle = 0.0000
+TransferredMessages = 747
+TransferredBytes = 8792
+BusyCycles = 758
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_6>_<sw6.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 898
-TransferredBytes = 73744
-BusyCycles = 1158
-BytesPerCycle = 0.0004
+TransferredMessages = 747
+TransferredBytes = 81496
+BusyCycles = 1042
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_15>_<sw16.in_buf_6> ]
@@ -1829,33 +1829,33 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_9>_<sw10.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 635
-TransferredBytes = 5336
-BusyCycles = 636
+TransferredMessages = 623
+TransferredBytes = 4984
+BusyCycles = 623
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_7>_<sw7.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 635
-TransferredBytes = 56792
-BusyCycles = 837
-BytesPerCycle = 0.0003
+TransferredMessages = 623
+TransferredBytes = 57720
+BusyCycles = 829
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_10>_<sw11.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 3
-TransferredBytes = 536
-BusyCycles = 5
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_7>_<sw7.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 3
-TransferredBytes = 280
-BusyCycles = 4
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -1893,34 +1893,34 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_13>_<sw14.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 2
-TransferredBytes = 272
-BusyCycles = 3
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_7>_<sw7.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 2
-TransferredBytes = 272
-BusyCycles = 3
+TransferredMessages = 0
+TransferredBytes = 0
+BusyCycles = 0
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_14>_<sw15.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 873
-TransferredBytes = 9032
-BusyCycles = 881
-BytesPerCycle = 0.0000
+TransferredMessages = 863
+TransferredBytes = 8952
+BusyCycles = 871
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_7>_<sw7.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 873
-TransferredBytes = 81224
-BusyCycles = 1163
-BytesPerCycle = 0.0004
+TransferredMessages = 863
+TransferredBytes = 81144
+BusyCycles = 1153
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_15>_<sw16.in_buf_7> ]
@@ -1989,81 +1989,81 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_8>_<sw9.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 200
-TransferredBytes = 33856
-BusyCycles = 326
-BytesPerCycle = 0.0002
+TransferredMessages = 122
+TransferredBytes = 8656
+BusyCycles = 152
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_8>_<sw8.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 200
-TransferredBytes = 20544
-BusyCycles = 274
-BytesPerCycle = 0.0001
+TransferredMessages = 122
+TransferredBytes = 24528
+BusyCycles = 214
+BytesPerCycle = 0.0002
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_9>_<sw10.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 1197
-TransferredBytes = 22120
-BusyCycles = 1246
-BytesPerCycle = 0.0001
+TransferredMessages = 968
+TransferredBytes = 21568
+BusyCycles = 1022
+BytesPerCycle = 0.0002
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_8>_<sw8.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 1197
-TransferredBytes = 79720
-BusyCycles = 1471
-BytesPerCycle = 0.0004
+TransferredMessages = 968
+TransferredBytes = 80448
+BusyCycles = 1252
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_10>_<sw11.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 68
-TransferredBytes = 7968
-BusyCycles = 97
-BytesPerCycle = 0.0000
+TransferredMessages = 81
+TransferredBytes = 13192
+BusyCycles = 130
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_8>_<sw8.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 68
-TransferredBytes = 10528
-BusyCycles = 107
+TransferredMessages = 81
+TransferredBytes = 8840
+BusyCycles = 113
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_11>_<sw12.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 15
-TransferredBytes = 376
-BusyCycles = 16
+TransferredMessages = 3
+TransferredBytes = 280
+BusyCycles = 4
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_8>_<sw8.in_buf_11> ]
 Config.Bandwidth = 256
-TransferredMessages = 15
-TransferredBytes = 3704
-BusyCycles = 29
+TransferredMessages = 3
+TransferredBytes = 536
+BusyCycles = 5
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_12>_<sw13.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 0
-TransferredBytes = 0
-BusyCycles = 0
+TransferredMessages = 3
+TransferredBytes = 280
+BusyCycles = 4
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_8>_<sw8.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 0
-TransferredBytes = 0
-BusyCycles = 0
+TransferredMessages = 3
+TransferredBytes = 536
+BusyCycles = 5
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -2085,18 +2085,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_14>_<sw15.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 600
-TransferredBytes = 4800
-BusyCycles = 600
+TransferredMessages = 534
+TransferredBytes = 4272
+BusyCycles = 534
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_8>_<sw8.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 600
-TransferredBytes = 62144
-BusyCycles = 824
-BytesPerCycle = 0.0003
+TransferredMessages = 534
+TransferredBytes = 62128
+BusyCycles = 760
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_15>_<sw16.in_buf_8> ]
@@ -2165,65 +2165,65 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_9>_<sw10.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 997
-TransferredBytes = 14632
-BusyCycles = 1023
+TransferredMessages = 1028
+TransferredBytes = 18208
+BusyCycles = 1067
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_9>_<sw9.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 997
-TransferredBytes = 82216
-BusyCycles = 1287
-BytesPerCycle = 0.0004
+TransferredMessages = 1028
+TransferredBytes = 90400
+BusyCycles = 1349
+BytesPerCycle = 0.0007
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_10>_<sw11.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 82
-TransferredBytes = 10384
-BusyCycles = 120
+TransferredMessages = 97
+TransferredBytes = 8968
+BusyCycles = 129
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_9>_<sw9.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 82
-TransferredBytes = 11920
-BusyCycles = 126
+TransferredMessages = 97
+TransferredBytes = 17416
+BusyCycles = 162
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_11>_<sw12.in_buf_9> ]
 Config.Bandwidth = 256
 TransferredMessages = 3
-TransferredBytes = 24
-BusyCycles = 3
+TransferredBytes = 280
+BusyCycles = 4
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_9>_<sw9.in_buf_11> ]
 Config.Bandwidth = 256
 TransferredMessages = 3
-TransferredBytes = 792
-BusyCycles = 6
+TransferredBytes = 536
+BusyCycles = 5
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_12>_<sw13.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 0
-TransferredBytes = 0
-BusyCycles = 0
+TransferredMessages = 5
+TransferredBytes = 296
+BusyCycles = 6
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_9>_<sw9.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 0
-TransferredBytes = 0
-BusyCycles = 0
+TransferredMessages = 5
+TransferredBytes = 1064
+BusyCycles = 9
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
@@ -2245,18 +2245,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_14>_<sw15.in_buf_9> ]
 Config.Bandwidth = 256
-TransferredMessages = 540
-TransferredBytes = 4320
-BusyCycles = 540
+TransferredMessages = 507
+TransferredBytes = 4056
+BusyCycles = 507
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_9>_<sw9.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 540
-TransferredBytes = 52960
-BusyCycles = 730
-BytesPerCycle = 0.0003
+TransferredMessages = 507
+TransferredBytes = 59608
+BusyCycles = 724
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_15>_<sw16.in_buf_9> ]
@@ -2325,18 +2325,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_10>_<sw11.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 210
-TransferredBytes = 32400
-BusyCycles = 330
-BytesPerCycle = 0.0002
+TransferredMessages = 162
+TransferredBytes = 11024
+BusyCycles = 200
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_10>_<sw10.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 210
-TransferredBytes = 24720
-BusyCycles = 300
-BytesPerCycle = 0.0001
+TransferredMessages = 162
+TransferredBytes = 33040
+BusyCycles = 286
+BytesPerCycle = 0.0003
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_11>_<sw12.in_buf_10> ]
@@ -2373,34 +2373,34 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_13>_<sw14.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 800
-BusyCycles = 7
+TransferredMessages = 24
+TransferredBytes = 3520
+BusyCycles = 37
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_10>_<sw10.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 4
-TransferredBytes = 288
-BusyCycles = 5
+TransferredMessages = 24
+TransferredBytes = 3008
+BusyCycles = 35
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_14>_<sw15.in_buf_10> ]
 Config.Bandwidth = 256
-TransferredMessages = 1505
-TransferredBytes = 56584
-BusyCycles = 1679
-BytesPerCycle = 0.0003
+TransferredMessages = 1493
+TransferredBytes = 59048
+BusyCycles = 1677
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_10>_<sw10.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 1505
-TransferredBytes = 87048
-BusyCycles = 1798
-BytesPerCycle = 0.0004
+TransferredMessages = 1493
+TransferredBytes = 78760
+BusyCycles = 1754
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_15>_<sw16.in_buf_10> ]
@@ -2501,34 +2501,34 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_13>_<sw14.in_buf_11> ]
 Config.Bandwidth = 256
-TransferredMessages = 3
-TransferredBytes = 792
-BusyCycles = 6
+TransferredMessages = 2
+TransferredBytes = 272
+BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_11>_<sw11.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 3
-TransferredBytes = 24
+TransferredMessages = 2
+TransferredBytes = 272
 BusyCycles = 3
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_14>_<sw15.in_buf_11> ]
 Config.Bandwidth = 256
-TransferredMessages = 934
-TransferredBytes = 9520
-BusyCycles = 942
-BytesPerCycle = 0.0000
+TransferredMessages = 855
+TransferredBytes = 10424
+BusyCycles = 869
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_11>_<sw11.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 934
-TransferredBytes = 73776
-BusyCycles = 1193
-BytesPerCycle = 0.0004
+TransferredMessages = 855
+TransferredBytes = 83896
+BusyCycles = 1156
+BytesPerCycle = 0.0007
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_15>_<sw16.in_buf_11> ]
@@ -2597,50 +2597,50 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_12>_<sw13.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 164
-TransferredBytes = 33056
-BusyCycles = 288
+TransferredMessages = 151
+TransferredBytes = 27320
+BusyCycles = 253
 BytesPerCycle = 0.0002
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_12>_<sw12.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 164
-TransferredBytes = 11552
-BusyCycles = 204
+TransferredMessages = 151
+TransferredBytes = 13752
+BusyCycles = 200
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_13>_<sw14.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 108
-TransferredBytes = 13152
+TransferredMessages = 105
+TransferredBytes = 13896
 BusyCycles = 156
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_12>_<sw12.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 108
-TransferredBytes = 16224
-BusyCycles = 168
+TransferredMessages = 105
+TransferredBytes = 14664
+BusyCycles = 159
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_14>_<sw15.in_buf_12> ]
 Config.Bandwidth = 256
-TransferredMessages = 689
-TransferredBytes = 18312
-BusyCycles = 739
+TransferredMessages = 656
+TransferredBytes = 16000
+BusyCycles = 698
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_12>_<sw12.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 689
-TransferredBytes = 75400
-BusyCycles = 962
-BytesPerCycle = 0.0004
+TransferredMessages = 656
+TransferredBytes = 70784
+BusyCycles = 912
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_15>_<sw16.in_buf_12> ]
@@ -2709,34 +2709,34 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_13>_<sw14.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 85
-TransferredBytes = 11688
-BusyCycles = 128
+TransferredMessages = 101
+TransferredBytes = 16168
+BusyCycles = 161
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_13>_<sw13.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 85
-TransferredBytes = 11432
-BusyCycles = 127
+TransferredMessages = 101
+TransferredBytes = 11304
+BusyCycles = 142
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_14>_<sw15.in_buf_13> ]
 Config.Bandwidth = 256
-TransferredMessages = 689
-TransferredBytes = 24200
-BusyCycles = 762
+TransferredMessages = 679
+TransferredBytes = 15928
+BusyCycles = 720
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_13>_<sw13.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 689
-TransferredBytes = 66696
-BusyCycles = 928
-BytesPerCycle = 0.0003
+TransferredMessages = 679
+TransferredBytes = 71224
+BusyCycles = 936
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_15>_<sw16.in_buf_13> ]
@@ -2805,18 +2805,18 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_14>_<sw15.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 967
-TransferredBytes = 23608
-BusyCycles = 1029
-BytesPerCycle = 0.0001
+TransferredMessages = 1178
+TransferredBytes = 50128
+BusyCycles = 1337
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_14>_<sw14.in_buf_14> ]
 Config.Bandwidth = 256
-TransferredMessages = 967
-TransferredBytes = 98872
-BusyCycles = 1323
-BytesPerCycle = 0.0005
+TransferredMessages = 1178
+TransferredBytes = 99536
+BusyCycles = 1530
+BytesPerCycle = 0.0008
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_15>_<sw16.in_buf_14> ]
@@ -3141,258 +3141,258 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_19>_<sw20.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 10187
-TransferredBytes = 93784
-BusyCycles = 10235
-BytesPerCycle = 0.0005
+TransferredMessages = 9631
+TransferredBytes = 89336
+BusyCycles = 9679
+BytesPerCycle = 0.0007
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw20.out_buf_3>_<sw0.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 10187
-TransferredBytes = 779608
-BusyCycles = 12914
-BytesPerCycle = 0.0038
+TransferredMessages = 9631
+TransferredBytes = 783352
+BusyCycles = 12390
+BytesPerCycle = 0.0061
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_19>_<sw20.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 1041
-TransferredBytes = 10376
-BusyCycles = 1049
+TransferredMessages = 1032
+TransferredBytes = 10304
+BusyCycles = 1040
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw20.out_buf_4>_<sw1.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 1041
-TransferredBytes = 74632
-BusyCycles = 1300
-BytesPerCycle = 0.0004
+TransferredMessages = 1032
+TransferredBytes = 80192
+BusyCycles = 1313
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_19>_<sw20.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 668
-TransferredBytes = 5344
-BusyCycles = 668
+TransferredMessages = 565
+TransferredBytes = 4520
+BusyCycles = 565
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw20.out_buf_5>_<sw2.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 668
-TransferredBytes = 62432
-BusyCycles = 891
-BytesPerCycle = 0.0003
+TransferredMessages = 565
+TransferredBytes = 63912
+BusyCycles = 797
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_19>_<sw20.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 579
-TransferredBytes = 4632
-BusyCycles = 579
+TransferredMessages = 673
+TransferredBytes = 5384
+BusyCycles = 673
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw20.out_buf_6>_<sw3.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 579
-TransferredBytes = 51736
-BusyCycles = 763
-BytesPerCycle = 0.0003
+TransferredMessages = 673
+TransferredBytes = 64776
+BusyCycles = 905
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_19>_<sw20.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 1041
-TransferredBytes = 10376
-BusyCycles = 1049
+TransferredMessages = 913
+TransferredBytes = 9352
+BusyCycles = 921
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw20.out_buf_7>_<sw4.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 1041
+TransferredMessages = 913
 TransferredBytes = 81288
-BusyCycles = 1326
-BytesPerCycle = 0.0004
+BusyCycles = 1202
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_19>_<sw21.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 9262
-TransferredBytes = 86384
-BusyCycles = 9310
-BytesPerCycle = 0.0004
+TransferredMessages = 8772
+TransferredBytes = 82464
+BusyCycles = 8820
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw21.out_buf_3>_<sw5.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 9262
-TransferredBytes = 813424
-BusyCycles = 12150
-BytesPerCycle = 0.0039
+TransferredMessages = 8772
+TransferredBytes = 835360
+BusyCycles = 11761
+BytesPerCycle = 0.0065
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_19>_<sw21.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 935
-TransferredBytes = 9528
-BusyCycles = 943
-BytesPerCycle = 0.0000
+TransferredMessages = 754
+TransferredBytes = 8080
+BusyCycles = 762
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw21.out_buf_4>_<sw6.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 935
-TransferredBytes = 70456
-BusyCycles = 1181
-BytesPerCycle = 0.0003
+TransferredMessages = 754
+TransferredBytes = 83344
+BusyCycles = 1056
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_19>_<sw21.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 912
-TransferredBytes = 9344
-BusyCycles = 920
-BytesPerCycle = 0.0000
+TransferredMessages = 849
+TransferredBytes = 8840
+BusyCycles = 857
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw21.out_buf_5>_<sw7.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 912
-TransferredBytes = 79488
-BusyCycles = 1194
-BytesPerCycle = 0.0004
+TransferredMessages = 849
+TransferredBytes = 78728
+BusyCycles = 1130
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_19>_<sw21.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 636
-TransferredBytes = 5088
-BusyCycles = 636
+TransferredMessages = 554
+TransferredBytes = 4432
+BusyCycles = 554
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw21.out_buf_6>_<sw8.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 636
-TransferredBytes = 66784
-BusyCycles = 877
-BytesPerCycle = 0.0003
+TransferredMessages = 554
+TransferredBytes = 61776
+BusyCycles = 778
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_19>_<sw21.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 540
-TransferredBytes = 4320
-BusyCycles = 540
+TransferredMessages = 536
+TransferredBytes = 4288
+BusyCycles = 536
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw21.out_buf_7>_<sw9.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 540
-TransferredBytes = 56288
-BusyCycles = 743
-BytesPerCycle = 0.0003
+TransferredMessages = 536
+TransferredBytes = 63168
+BusyCycles = 766
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_19>_<sw22.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 9657
-TransferredBytes = 89544
-BusyCycles = 9705
-BytesPerCycle = 0.0004
+TransferredMessages = 8986
+TransferredBytes = 84176
+BusyCycles = 9034
+BytesPerCycle = 0.0007
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw22.out_buf_3>_<sw10.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 9657
-TransferredBytes = 773064
-BusyCycles = 12375
-BytesPerCycle = 0.0038
+TransferredMessages = 8986
+TransferredBytes = 788432
+BusyCycles = 11785
+BytesPerCycle = 0.0061
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_19>_<sw22.in_buf_4> ]
 Config.Bandwidth = 256
-TransferredMessages = 624
-TransferredBytes = 4992
-BusyCycles = 624
+TransferredMessages = 652
+TransferredBytes = 5216
+BusyCycles = 652
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw22.out_buf_4>_<sw11.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 624
-TransferredBytes = 60032
-BusyCycles = 839
-BytesPerCycle = 0.0003
+TransferredMessages = 652
+TransferredBytes = 63584
+BusyCycles = 880
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_19>_<sw22.in_buf_5> ]
 Config.Bandwidth = 256
-TransferredMessages = 1075
-TransferredBytes = 10648
-BusyCycles = 1083
+TransferredMessages = 999
+TransferredBytes = 10040
+BusyCycles = 1007
 BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw22.out_buf_5>_<sw12.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 1075
-TransferredBytes = 78232
-BusyCycles = 1347
-BytesPerCycle = 0.0004
+TransferredMessages = 999
+TransferredBytes = 79416
+BusyCycles = 1278
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_19>_<sw22.in_buf_6> ]
 Config.Bandwidth = 256
-TransferredMessages = 1017
-TransferredBytes = 10184
-BusyCycles = 1025
-BytesPerCycle = 0.0000
+TransferredMessages = 975
+TransferredBytes = 9848
+BusyCycles = 983
+BytesPerCycle = 0.0001
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw22.out_buf_6>_<sw13.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 1017
-TransferredBytes = 70856
-BusyCycles = 1262
-BytesPerCycle = 0.0003
+TransferredMessages = 975
+TransferredBytes = 73336
+BusyCycles = 1231
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_19>_<sw22.in_buf_7> ]
 Config.Bandwidth = 256
-TransferredMessages = 802
-TransferredBytes = 6416
-BusyCycles = 802
+TransferredMessages = 778
+TransferredBytes = 6224
+BusyCycles = 778
 BytesPerCycle = 0.0000
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw22.out_buf_7>_<sw14.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 802
-TransferredBytes = 58640
-BusyCycles = 1006
-BytesPerCycle = 0.0003
+TransferredMessages = 778
+TransferredBytes = 56400
+BusyCycles = 974
+BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_19>_<sw23.in_buf_3> ]
 Config.Bandwidth = 256
-TransferredMessages = 12044
-TransferredBytes = 112736
-BusyCycles = 12108
-BytesPerCycle = 0.0005
+TransferredMessages = 11254
+TransferredBytes = 106416
+BusyCycles = 11318
+BytesPerCycle = 0.0008
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw23.out_buf_3>_<sw15.in_buf_19> ]
 Config.Bandwidth = 256
-TransferredMessages = 12044
-TransferredBytes = 1080160
-BusyCycles = 15887
-BytesPerCycle = 0.0052
+TransferredMessages = 11254
+TransferredBytes = 1099440
+BusyCycles = 15197
+BytesPerCycle = 0.0085
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw16.out_buf_19>_<sw23.in_buf_4> ]
@@ -3461,258 +3461,258 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw0.out_buf_20>_<n0.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3641
-TransferredBytes = 325832
-BusyCycles = 4800
-BytesPerCycle = 0.0016
+TransferredMessages = 3034
+TransferredBytes = 318672
+BusyCycles = 4184
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n0.out_buf_0>_<sw0.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3641
-TransferredBytes = 88776
-BusyCycles = 3874
+TransferredMessages = 3034
+TransferredBytes = 48336
+BusyCycles = 3128
 BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw1.out_buf_20>_<n1.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3679
-TransferredBytes = 317432
-BusyCycles = 4804
-BytesPerCycle = 0.0015
+TransferredMessages = 3406
+TransferredBytes = 325744
+BusyCycles = 4572
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n1.out_buf_0>_<sw1.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3679
-TransferredBytes = 81656
-BusyCycles = 3883
-BytesPerCycle = 0.0004
+TransferredMessages = 3406
+TransferredBytes = 75888
+BusyCycles = 3596
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw2.out_buf_20>_<n2.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3702
-TransferredBytes = 319408
-BusyCycles = 4834
-BytesPerCycle = 0.0016
+TransferredMessages = 3167
+TransferredBytes = 317688
+BusyCycles = 4309
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n2.out_buf_0>_<sw2.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3702
-TransferredBytes = 108464
-BusyCycles = 4010
-BytesPerCycle = 0.0005
+TransferredMessages = 3167
+TransferredBytes = 79864
+BusyCycles = 3380
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw3.out_buf_20>_<n3.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3981
-TransferredBytes = 321896
-BusyCycles = 5114
-BytesPerCycle = 0.0016
+TransferredMessages = 3479
+TransferredBytes = 324024
+BusyCycles = 4636
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n3.out_buf_0>_<sw3.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3981
-TransferredBytes = 80488
-BusyCycles = 4171
-BytesPerCycle = 0.0004
+TransferredMessages = 3479
+TransferredBytes = 77752
+BusyCycles = 3674
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw4.out_buf_20>_<n4.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3533
-TransferredBytes = 322664
-BusyCycles = 4683
-BytesPerCycle = 0.0016
+TransferredMessages = 3137
+TransferredBytes = 317192
+BusyCycles = 4278
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n4.out_buf_0>_<sw4.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3533
-TransferredBytes = 78952
-BusyCycles = 3731
-BytesPerCycle = 0.0004
+TransferredMessages = 3137
+TransferredBytes = 64776
+BusyCycles = 3292
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw5.out_buf_20>_<n5.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3380
-TransferredBytes = 313504
-BusyCycles = 4499
-BytesPerCycle = 0.0015
+TransferredMessages = 3155
+TransferredBytes = 318104
+BusyCycles = 4299
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n5.out_buf_0>_<sw5.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3380
-TransferredBytes = 77984
-BusyCycles = 3579
-BytesPerCycle = 0.0004
+TransferredMessages = 3155
+TransferredBytes = 64152
+BusyCycles = 3307
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw6.out_buf_20>_<n6.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3486
-TransferredBytes = 316656
-BusyCycles = 4614
-BytesPerCycle = 0.0015
+TransferredMessages = 2954
+TransferredBytes = 315216
+BusyCycles = 4093
+BytesPerCycle = 0.0024
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n6.out_buf_0>_<sw6.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3486
-TransferredBytes = 85232
-BusyCycles = 3710
+TransferredMessages = 2954
+TransferredBytes = 57424
+BusyCycles = 3086
 BytesPerCycle = 0.0004
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw7.out_buf_20>_<n7.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3396
-TransferredBytes = 314912
-BusyCycles = 4520
-BytesPerCycle = 0.0015
+TransferredMessages = 3299
+TransferredBytes = 322328
+BusyCycles = 4455
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n7.out_buf_0>_<sw7.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3396
-TransferredBytes = 82208
-BusyCycles = 3611
-BytesPerCycle = 0.0004
+TransferredMessages = 3299
+TransferredBytes = 75032
+BusyCycles = 3489
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw8.out_buf_20>_<n8.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3876
-TransferredBytes = 322848
-BusyCycles = 5016
-BytesPerCycle = 0.0016
+TransferredMessages = 3230
+TransferredBytes = 312816
+BusyCycles = 4351
+BytesPerCycle = 0.0024
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n8.out_buf_0>_<sw8.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3876
-TransferredBytes = 87584
-BusyCycles = 4097
-BytesPerCycle = 0.0004
+TransferredMessages = 3230
+TransferredBytes = 62960
+BusyCycles = 3375
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw9.out_buf_20>_<n9.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3393
-TransferredBytes = 318984
-BusyCycles = 4533
-BytesPerCycle = 0.0015
+TransferredMessages = 3258
+TransferredBytes = 316880
+BusyCycles = 4394
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n9.out_buf_0>_<sw9.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3393
-TransferredBytes = 64520
-BusyCycles = 3539
-BytesPerCycle = 0.0003
+TransferredMessages = 3258
+TransferredBytes = 81104
+BusyCycles = 3473
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw10.out_buf_20>_<n10.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3432
-TransferredBytes = 319040
-BusyCycles = 4571
-BytesPerCycle = 0.0015
+TransferredMessages = 3419
+TransferredBytes = 316888
+BusyCycles = 4550
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n10.out_buf_0>_<sw10.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3432
-TransferredBytes = 82240
-BusyCycles = 3646
-BytesPerCycle = 0.0004
+TransferredMessages = 3419
+TransferredBytes = 69848
+BusyCycles = 3585
+BytesPerCycle = 0.0005
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw11.out_buf_20>_<n11.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3571
-TransferredBytes = 319896
-BusyCycles = 4709
-BytesPerCycle = 0.0016
+TransferredMessages = 3393
+TransferredBytes = 315656
+BusyCycles = 4520
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n11.out_buf_0>_<sw11.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3571
-TransferredBytes = 80536
-BusyCycles = 3774
-BytesPerCycle = 0.0004
+TransferredMessages = 3393
+TransferredBytes = 89864
+BusyCycles = 3638
+BytesPerCycle = 0.0007
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw12.out_buf_20>_<n12.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3709
-TransferredBytes = 321256
-BusyCycles = 4848
-BytesPerCycle = 0.0016
+TransferredMessages = 3487
+TransferredBytes = 316408
+BusyCycles = 4614
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n12.out_buf_0>_<sw12.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3709
-TransferredBytes = 96488
-BusyCycles = 3970
-BytesPerCycle = 0.0005
+TransferredMessages = 3487
+TransferredBytes = 83448
+BusyCycles = 3704
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw13.out_buf_20>_<n13.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3506
-TransferredBytes = 309904
-BusyCycles = 4607
-BytesPerCycle = 0.0015
+TransferredMessages = 3459
+TransferredBytes = 315416
+BusyCycles = 4583
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n13.out_buf_0>_<sw13.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3506
-TransferredBytes = 74384
-BusyCycles = 3687
-BytesPerCycle = 0.0004
+TransferredMessages = 3459
+TransferredBytes = 72728
+BusyCycles = 3635
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw14.out_buf_20>_<n14.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3569
-TransferredBytes = 320648
-BusyCycles = 4710
-BytesPerCycle = 0.0016
+TransferredMessages = 3836
+TransferredBytes = 322272
+BusyCycles = 4975
+BytesPerCycle = 0.0025
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n14.out_buf_0>_<sw14.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3569
-TransferredBytes = 73608
-BusyCycles = 3745
-BytesPerCycle = 0.0004
+TransferredMessages = 3836
+TransferredBytes = 100832
+BusyCycles = 4110
+BytesPerCycle = 0.0008
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw15.out_buf_20>_<n15.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 3332
-TransferredBytes = 310816
-BusyCycles = 4442
-BytesPerCycle = 0.0015
+TransferredMessages = 3604
+TransferredBytes = 314784
+BusyCycles = 4721
+BytesPerCycle = 0.0024
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n15.out_buf_0>_<sw15.in_buf_20> ]
 Config.Bandwidth = 256
-TransferredMessages = 3332
-TransferredBytes = 69152
-BusyCycles = 3498
-BytesPerCycle = 0.0003
+TransferredMessages = 3604
+TransferredBytes = 78496
+BusyCycles = 3798
+BytesPerCycle = 0.0006
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw16.out_buf_20>_<n16.in_buf_0> ]
@@ -3781,76 +3781,76 @@ Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw20.out_buf_8>_<n20.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 13516
-TransferredBytes = 124512
-BusyCycles = 13580
-BytesPerCycle = 0.0006
+TransferredMessages = 12814
+TransferredBytes = 118896
+BusyCycles = 12878
+BytesPerCycle = 0.0009
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n20.out_buf_0>_<sw20.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 13516
-TransferredBytes = 1049696
-BusyCycles = 17194
-BytesPerCycle = 0.0051
+TransferredMessages = 12814
+TransferredBytes = 1073520
+BusyCycles = 16607
+BytesPerCycle = 0.0083
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw21.out_buf_8>_<n21.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 12285
-TransferredBytes = 114664
-BusyCycles = 12349
-BytesPerCycle = 0.0006
+TransferredMessages = 11465
+TransferredBytes = 108104
+BusyCycles = 11529
+BytesPerCycle = 0.0008
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n21.out_buf_0>_<sw21.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 12285
-TransferredBytes = 1086440
-BusyCycles = 16145
-BytesPerCycle = 0.0053
+TransferredMessages = 11465
+TransferredBytes = 1122376
+BusyCycles = 15491
+BytesPerCycle = 0.0087
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw22.out_buf_8>_<n22.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 13175
-TransferredBytes = 121784
-BusyCycles = 13239
-BytesPerCycle = 0.0006
+TransferredMessages = 12390
+TransferredBytes = 115504
+BusyCycles = 12454
+BytesPerCycle = 0.0009
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n22.out_buf_0>_<sw22.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 13175
-TransferredBytes = 1040824
-BusyCycles = 16829
-BytesPerCycle = 0.0051
+TransferredMessages = 12390
+TransferredBytes = 1061168
+BusyCycles = 16148
+BytesPerCycle = 0.0082
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<sw23.out_buf_8>_<n23.in_buf_0> ]
 Config.Bandwidth = 256
-TransferredMessages = 12044
-TransferredBytes = 112736
-BusyCycles = 12108
-BytesPerCycle = 0.0005
+TransferredMessages = 11254
+TransferredBytes = 106416
+BusyCycles = 11318
+BytesPerCycle = 0.0008
 Utilization = 0.0000
 
 [ Network.net0.Link.link_<n23.out_buf_0>_<sw23.in_buf_8> ]
 Config.Bandwidth = 256
-TransferredMessages = 12044
-TransferredBytes = 1080160
-BusyCycles = 15887
-BytesPerCycle = 0.0052
+TransferredMessages = 11254
+TransferredBytes = 1099440
+BusyCycles = 15197
+BytesPerCycle = 0.0085
 Utilization = 0.0000
 
 [ Network.net0.Node.sw0 ]
 Config.BandWidth = 256
-SentMessages = 25744
-SentBytes = 1194624
-SendRate = 0.0058
-ReceivedMessages = 25744
-ReceivedBytes = 1194624
-ReceiveRate = 0.0058
+SentMessages = 23578
+SentBytes = 1155024
+SendRate = 0.0090
+ReceivedMessages = 23578
+ReceivedBytes = 1155024
+ReceiveRate = 0.0090
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -4022,12 +4022,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw1 ]
 Config.BandWidth = 256
-SentMessages = 7358
-SentBytes = 399088
-SendRate = 0.0019
-ReceivedMessages = 7358
-ReceivedBytes = 399088
-ReceiveRate = 0.0019
+SentMessages = 6812
+SentBytes = 401632
+SendRate = 0.0031
+ReceivedMessages = 6812
+ReceivedBytes = 401632
+ReceiveRate = 0.0031
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -4199,12 +4199,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw2 ]
 Config.BandWidth = 256
-SentMessages = 7404
-SentBytes = 427872
-SendRate = 0.0021
-ReceivedMessages = 7404
-ReceivedBytes = 427872
-ReceiveRate = 0.0021
+SentMessages = 6334
+SentBytes = 397552
+SendRate = 0.0031
+ReceivedMessages = 6334
+ReceivedBytes = 397552
+ReceiveRate = 0.0031
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -4376,12 +4376,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw3 ]
 Config.BandWidth = 256
-SentMessages = 7962
-SentBytes = 402384
-SendRate = 0.0020
-ReceivedMessages = 7962
-ReceivedBytes = 402384
-ReceiveRate = 0.0020
+SentMessages = 6958
+SentBytes = 401776
+SendRate = 0.0031
+ReceivedMessages = 6958
+ReceivedBytes = 401776
+ReceiveRate = 0.0031
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -4553,12 +4553,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw4 ]
 Config.BandWidth = 256
-SentMessages = 7066
-SentBytes = 401616
-SendRate = 0.0019
-ReceivedMessages = 7066
-ReceivedBytes = 401616
-ReceiveRate = 0.0019
+SentMessages = 6274
+SentBytes = 381968
+SendRate = 0.0030
+ReceivedMessages = 6274
+ReceivedBytes = 381968
+ReceiveRate = 0.0030
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -4730,12 +4730,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw5 ]
 Config.BandWidth = 256
-SentMessages = 24156
-SentBytes = 1230048
-SendRate = 0.0060
-ReceivedMessages = 24156
-ReceivedBytes = 1230048
-ReceiveRate = 0.0060
+SentMessages = 22726
+SentBytes = 1231920
+SendRate = 0.0096
+ReceivedMessages = 22726
+ReceivedBytes = 1231920
+ReceiveRate = 0.0096
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -4907,12 +4907,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw6 ]
 Config.BandWidth = 256
-SentMessages = 6972
-SentBytes = 401888
-SendRate = 0.0020
-ReceivedMessages = 6972
-ReceivedBytes = 401888
-ReceiveRate = 0.0020
+SentMessages = 5908
+SentBytes = 372640
+SendRate = 0.0029
+ReceivedMessages = 5908
+ReceivedBytes = 372640
+ReceiveRate = 0.0029
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -5084,12 +5084,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw7 ]
 Config.BandWidth = 256
-SentMessages = 6792
-SentBytes = 397120
-SendRate = 0.0019
-ReceivedMessages = 6792
-ReceivedBytes = 397120
-ReceiveRate = 0.0019
+SentMessages = 6598
+SentBytes = 397360
+SendRate = 0.0031
+ReceivedMessages = 6598
+ReceivedBytes = 397360
+ReceiveRate = 0.0031
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -5261,12 +5261,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw8 ]
 Config.BandWidth = 256
-SentMessages = 7752
-SentBytes = 410432
-SendRate = 0.0020
-ReceivedMessages = 7752
-ReceivedBytes = 410432
-ReceiveRate = 0.0020
+SentMessages = 6460
+SentBytes = 375776
+SendRate = 0.0029
+ReceivedMessages = 6460
+ReceivedBytes = 375776
+ReceiveRate = 0.0029
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -5438,12 +5438,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw9 ]
 Config.BandWidth = 256
-SentMessages = 6786
-SentBytes = 383504
-SendRate = 0.0019
-ReceivedMessages = 6786
-ReceivedBytes = 383504
-ReceiveRate = 0.0019
+SentMessages = 6516
+SentBytes = 397984
+SendRate = 0.0031
+ReceivedMessages = 6516
+ReceivedBytes = 397984
+ReceiveRate = 0.0031
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -5615,12 +5615,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw10 ]
 Config.BandWidth = 256
-SentMessages = 24876
-SentBytes = 1198688
-SendRate = 0.0058
-ReceivedMessages = 24876
-ReceivedBytes = 1198688
-ReceiveRate = 0.0058
+SentMessages = 23588
+SentBytes = 1199136
+SendRate = 0.0093
+ReceivedMessages = 23588
+ReceivedBytes = 1199136
+ReceiveRate = 0.0093
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -5792,12 +5792,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw11 ]
 Config.BandWidth = 256
-SentMessages = 7142
-SentBytes = 400432
-SendRate = 0.0019
-ReceivedMessages = 7142
-ReceivedBytes = 400432
-ReceiveRate = 0.0019
+SentMessages = 6786
+SentBytes = 405520
+SendRate = 0.0032
+ReceivedMessages = 6786
+ReceivedBytes = 405520
+ReceiveRate = 0.0032
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -5969,12 +5969,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw12 ]
 Config.BandWidth = 256
-SentMessages = 7418
-SentBytes = 417744
-SendRate = 0.0020
-ReceivedMessages = 7418
-ReceivedBytes = 417744
-ReceiveRate = 0.0020
+SentMessages = 6974
+SentBytes = 399856
+SendRate = 0.0031
+ReceivedMessages = 6974
+ReceivedBytes = 399856
+ReceiveRate = 0.0031
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -6146,12 +6146,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw13 ]
 Config.BandWidth = 256
-SentMessages = 7012
-SentBytes = 384288
-SendRate = 0.0019
-ReceivedMessages = 7012
-ReceivedBytes = 384288
-ReceiveRate = 0.0019
+SentMessages = 6918
+SentBytes = 388144
+SendRate = 0.0030
+ReceivedMessages = 6918
+ReceivedBytes = 388144
+ReceiveRate = 0.0030
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -6323,12 +6323,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw14 ]
 Config.BandWidth = 256
-SentMessages = 7138
-SentBytes = 394256
-SendRate = 0.0019
-ReceivedMessages = 7138
-ReceivedBytes = 394256
-ReceiveRate = 0.0019
+SentMessages = 7672
+SentBytes = 423104
+SendRate = 0.0033
+ReceivedMessages = 7672
+ReceivedBytes = 423104
+ReceiveRate = 0.0033
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -6500,12 +6500,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw15 ]
 Config.BandWidth = 256
-SentMessages = 29170
-SentBytes = 1486480
-SendRate = 0.0072
-ReceivedMessages = 29170
-ReceivedBytes = 1486480
-ReceiveRate = 0.0072
+SentMessages = 27950
+SentBytes = 1520496
+SendRate = 0.0118
+ReceivedMessages = 27950
+ReceivedBytes = 1520496
+ReceiveRate = 0.0118
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -6584,7 +6584,7 @@ in_buf_18.ByteOccupancy = 0.00
 in_buf_18.Utilization = 0.0000
 in_buf_19.Size = 1024 
 in_buf_19.MessageOccupancy = 0.00
-in_buf_19.ByteOccupancy = 0.02
+in_buf_19.ByteOccupancy = 0.03
 in_buf_19.Utilization = 0.0000
 in_buf_20.Size = 1024 
 in_buf_20.MessageOccupancy = 0.00
@@ -7385,12 +7385,12 @@ out_buf_20.Utilization = 0.0000
 
 [ Network.net0.Node.sw20 ]
 Config.BandWidth = 256
-SentMessages = 27032
-SentBytes = 1174208
-SendRate = 0.0057
-ReceivedMessages = 27032
-ReceivedBytes = 1174208
-ReceiveRate = 0.0057
+SentMessages = 25628
+SentBytes = 1192416
+SendRate = 0.0093
+ReceivedMessages = 25628
+ReceivedBytes = 1192416
+ReceiveRate = 0.0093
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7405,7 +7405,7 @@ in_buf_2.ByteOccupancy = 0.00
 in_buf_2.Utilization = 0.0000
 in_buf_3.Size = 1024 
 in_buf_3.MessageOccupancy = 0.00
-in_buf_3.ByteOccupancy = 0.00
+in_buf_3.ByteOccupancy = 0.01
 in_buf_3.Utilization = 0.0000
 in_buf_4.Size = 1024 
 in_buf_4.MessageOccupancy = 0.00
@@ -7425,7 +7425,7 @@ in_buf_7.ByteOccupancy = 0.00
 in_buf_7.Utilization = 0.0000
 in_buf_8.Size = 1024 
 in_buf_8.MessageOccupancy = 0.00
-in_buf_8.ByteOccupancy = 0.01
+in_buf_8.ByteOccupancy = 0.02
 in_buf_8.Utilization = 0.0000
 out_buf_0.Size = 1024 
 out_buf_0.MessageOccupancy = 0.00
@@ -7466,12 +7466,12 @@ out_buf_8.Utilization = 0.0000
 
 [ Network.net0.Node.sw21 ]
 Config.BandWidth = 256
-SentMessages = 24570
-SentBytes = 1201104
-SendRate = 0.0058
-ReceivedMessages = 24570
-ReceivedBytes = 1201104
-ReceiveRate = 0.0058
+SentMessages = 22930
+SentBytes = 1230480
+SendRate = 0.0096
+ReceivedMessages = 22930
+ReceivedBytes = 1230480
+ReceiveRate = 0.0096
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7506,7 +7506,7 @@ in_buf_7.ByteOccupancy = 0.00
 in_buf_7.Utilization = 0.0000
 in_buf_8.Size = 1024 
 in_buf_8.MessageOccupancy = 0.00
-in_buf_8.ByteOccupancy = 0.01
+in_buf_8.ByteOccupancy = 0.02
 in_buf_8.Utilization = 0.0000
 out_buf_0.Size = 1024 
 out_buf_0.MessageOccupancy = 0.00
@@ -7547,12 +7547,12 @@ out_buf_8.Utilization = 0.0000
 
 [ Network.net0.Node.sw22 ]
 Config.BandWidth = 256
-SentMessages = 26350
-SentBytes = 1162608
-SendRate = 0.0056
-ReceivedMessages = 26350
-ReceivedBytes = 1162608
-ReceiveRate = 0.0056
+SentMessages = 24780
+SentBytes = 1176672
+SendRate = 0.0091
+ReceivedMessages = 24780
+ReceivedBytes = 1176672
+ReceiveRate = 0.0091
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7567,7 +7567,7 @@ in_buf_2.ByteOccupancy = 0.00
 in_buf_2.Utilization = 0.0000
 in_buf_3.Size = 1024 
 in_buf_3.MessageOccupancy = 0.00
-in_buf_3.ByteOccupancy = 0.00
+in_buf_3.ByteOccupancy = 0.01
 in_buf_3.Utilization = 0.0000
 in_buf_4.Size = 1024 
 in_buf_4.MessageOccupancy = 0.00
@@ -7587,7 +7587,7 @@ in_buf_7.ByteOccupancy = 0.00
 in_buf_7.Utilization = 0.0000
 in_buf_8.Size = 1024 
 in_buf_8.MessageOccupancy = 0.00
-in_buf_8.ByteOccupancy = 0.01
+in_buf_8.ByteOccupancy = 0.02
 in_buf_8.Utilization = 0.0000
 out_buf_0.Size = 1024 
 out_buf_0.MessageOccupancy = 0.00
@@ -7628,12 +7628,12 @@ out_buf_8.Utilization = 0.0000
 
 [ Network.net0.Node.sw23 ]
 Config.BandWidth = 256
-SentMessages = 24088
-SentBytes = 1192896
-SendRate = 0.0058
-ReceivedMessages = 24088
-ReceivedBytes = 1192896
-ReceiveRate = 0.0058
+SentMessages = 22508
+SentBytes = 1205856
+SendRate = 0.0094
+ReceivedMessages = 22508
+ReceivedBytes = 1205856
+ReceiveRate = 0.0094
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7668,7 +7668,7 @@ in_buf_7.ByteOccupancy = 0.00
 in_buf_7.Utilization = 0.0000
 in_buf_8.Size = 1024 
 in_buf_8.MessageOccupancy = 0.00
-in_buf_8.ByteOccupancy = 0.01
+in_buf_8.ByteOccupancy = 0.02
 in_buf_8.Utilization = 0.0000
 out_buf_0.Size = 1024 
 out_buf_0.MessageOccupancy = 0.00
@@ -7684,7 +7684,7 @@ out_buf_2.ByteOccupancy = 0.00
 out_buf_2.Utilization = 0.0000
 out_buf_3.Size = 1024 
 out_buf_3.MessageOccupancy = 0.00
-out_buf_3.ByteOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.02
 out_buf_3.Utilization = 0.0000
 out_buf_4.Size = 1024 
 out_buf_4.MessageOccupancy = 0.00
@@ -7708,12 +7708,12 @@ out_buf_8.ByteOccupancy = 0.00
 out_buf_8.Utilization = 0.0000
 
 [ Network.net0.Node.n0 ]
-SentMessages = 3641
-SentBytes = 88776
+SentMessages = 3034
+SentBytes = 48336
 SendRate = 0.0004
-ReceivedMessages = 3641
-ReceivedBytes = 325832
-ReceiveRate = 0.0016
+ReceivedMessages = 3034
+ReceivedBytes = 318672
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7724,12 +7724,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n1 ]
-SentMessages = 3679
-SentBytes = 81656
-SendRate = 0.0004
-ReceivedMessages = 3679
-ReceivedBytes = 317432
-ReceiveRate = 0.0015
+SentMessages = 3406
+SentBytes = 75888
+SendRate = 0.0006
+ReceivedMessages = 3406
+ReceivedBytes = 325744
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7740,12 +7740,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n2 ]
-SentMessages = 3702
-SentBytes = 108464
-SendRate = 0.0005
-ReceivedMessages = 3702
-ReceivedBytes = 319408
-ReceiveRate = 0.0016
+SentMessages = 3167
+SentBytes = 79864
+SendRate = 0.0006
+ReceivedMessages = 3167
+ReceivedBytes = 317688
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7756,12 +7756,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n3 ]
-SentMessages = 3981
-SentBytes = 80488
-SendRate = 0.0004
-ReceivedMessages = 3981
-ReceivedBytes = 321896
-ReceiveRate = 0.0016
+SentMessages = 3479
+SentBytes = 77752
+SendRate = 0.0006
+ReceivedMessages = 3479
+ReceivedBytes = 324024
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7772,12 +7772,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n4 ]
-SentMessages = 3533
-SentBytes = 78952
-SendRate = 0.0004
-ReceivedMessages = 3533
-ReceivedBytes = 322664
-ReceiveRate = 0.0016
+SentMessages = 3137
+SentBytes = 64776
+SendRate = 0.0005
+ReceivedMessages = 3137
+ReceivedBytes = 317192
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7788,12 +7788,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n5 ]
-SentMessages = 3380
-SentBytes = 77984
-SendRate = 0.0004
-ReceivedMessages = 3380
-ReceivedBytes = 313504
-ReceiveRate = 0.0015
+SentMessages = 3155
+SentBytes = 64152
+SendRate = 0.0005
+ReceivedMessages = 3155
+ReceivedBytes = 318104
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7804,12 +7804,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n6 ]
-SentMessages = 3486
-SentBytes = 85232
+SentMessages = 2954
+SentBytes = 57424
 SendRate = 0.0004
-ReceivedMessages = 3486
-ReceivedBytes = 316656
-ReceiveRate = 0.0015
+ReceivedMessages = 2954
+ReceivedBytes = 315216
+ReceiveRate = 0.0024
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7820,12 +7820,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n7 ]
-SentMessages = 3396
-SentBytes = 82208
-SendRate = 0.0004
-ReceivedMessages = 3396
-ReceivedBytes = 314912
-ReceiveRate = 0.0015
+SentMessages = 3299
+SentBytes = 75032
+SendRate = 0.0006
+ReceivedMessages = 3299
+ReceivedBytes = 322328
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7836,12 +7836,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n8 ]
-SentMessages = 3876
-SentBytes = 87584
-SendRate = 0.0004
-ReceivedMessages = 3876
-ReceivedBytes = 322848
-ReceiveRate = 0.0016
+SentMessages = 3230
+SentBytes = 62960
+SendRate = 0.0005
+ReceivedMessages = 3230
+ReceivedBytes = 312816
+ReceiveRate = 0.0024
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7852,12 +7852,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n9 ]
-SentMessages = 3393
-SentBytes = 64520
-SendRate = 0.0003
-ReceivedMessages = 3393
-ReceivedBytes = 318984
-ReceiveRate = 0.0015
+SentMessages = 3258
+SentBytes = 81104
+SendRate = 0.0006
+ReceivedMessages = 3258
+ReceivedBytes = 316880
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7868,12 +7868,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n10 ]
-SentMessages = 3432
-SentBytes = 82240
-SendRate = 0.0004
-ReceivedMessages = 3432
-ReceivedBytes = 319040
-ReceiveRate = 0.0015
+SentMessages = 3419
+SentBytes = 69848
+SendRate = 0.0005
+ReceivedMessages = 3419
+ReceivedBytes = 316888
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7884,12 +7884,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n11 ]
-SentMessages = 3571
-SentBytes = 80536
-SendRate = 0.0004
-ReceivedMessages = 3571
-ReceivedBytes = 319896
-ReceiveRate = 0.0016
+SentMessages = 3393
+SentBytes = 89864
+SendRate = 0.0007
+ReceivedMessages = 3393
+ReceivedBytes = 315656
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7900,12 +7900,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n12 ]
-SentMessages = 3709
-SentBytes = 96488
-SendRate = 0.0005
-ReceivedMessages = 3709
-ReceivedBytes = 321256
-ReceiveRate = 0.0016
+SentMessages = 3487
+SentBytes = 83448
+SendRate = 0.0006
+ReceivedMessages = 3487
+ReceivedBytes = 316408
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7916,12 +7916,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n13 ]
-SentMessages = 3506
-SentBytes = 74384
-SendRate = 0.0004
-ReceivedMessages = 3506
-ReceivedBytes = 309904
-ReceiveRate = 0.0015
+SentMessages = 3459
+SentBytes = 72728
+SendRate = 0.0006
+ReceivedMessages = 3459
+ReceivedBytes = 315416
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7932,12 +7932,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n14 ]
-SentMessages = 3569
-SentBytes = 73608
-SendRate = 0.0004
-ReceivedMessages = 3569
-ReceivedBytes = 320648
-ReceiveRate = 0.0016
+SentMessages = 3836
+SentBytes = 100832
+SendRate = 0.0008
+ReceivedMessages = 3836
+ReceivedBytes = 322272
+ReceiveRate = 0.0025
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -7948,12 +7948,12 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n15 ]
-SentMessages = 3332
-SentBytes = 69152
-SendRate = 0.0003
-ReceivedMessages = 3332
-ReceivedBytes = 310816
-ReceiveRate = 0.0015
+SentMessages = 3604
+SentBytes = 78496
+SendRate = 0.0006
+ReceivedMessages = 3604
+ReceivedBytes = 314784
+ReceiveRate = 0.0024
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -8028,12 +8028,28 @@ out_buf_0.ByteOccupancy = 0.00
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n20 ]
-SentMessages = 13516
-SentBytes = 1049696
-SendRate = 0.0051
-ReceivedMessages = 13516
-ReceivedBytes = 124512
-ReceiveRate = 0.0006
+SentMessages = 12814
+SentBytes = 1073520
+SendRate = 0.0083
+ReceivedMessages = 12814
+ReceivedBytes = 118896
+ReceiveRate = 0.0009
+in_buf_0.Size = 1024 
+in_buf_0.MessageOccupancy = 0.00
+in_buf_0.ByteOccupancy = 0.00
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 1024 
+out_buf_0.MessageOccupancy = 0.00
+out_buf_0.ByteOccupancy = 0.08
+out_buf_0.Utilization = 0.0001
+
+[ Network.net0.Node.n21 ]
+SentMessages = 11465
+SentBytes = 1122376
+SendRate = 0.0087
+ReceivedMessages = 11465
+ReceivedBytes = 108104
+ReceiveRate = 0.0008
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -8041,31 +8057,31 @@ in_buf_0.Utilization = 0.0000
 out_buf_0.Size = 1024 
 out_buf_0.MessageOccupancy = 0.00
 out_buf_0.ByteOccupancy = 0.05
-out_buf_0.Utilization = 0.0000
-
-[ Network.net0.Node.n21 ]
-SentMessages = 12285
-SentBytes = 1086440
-SendRate = 0.0053
-ReceivedMessages = 12285
-ReceivedBytes = 114664
-ReceiveRate = 0.0006
-in_buf_0.Size = 1024 
-in_buf_0.MessageOccupancy = 0.00
-in_buf_0.ByteOccupancy = 0.00
-in_buf_0.Utilization = 0.0000
-out_buf_0.Size = 1024 
-out_buf_0.MessageOccupancy = 0.00
-out_buf_0.ByteOccupancy = 0.04
 out_buf_0.Utilization = 0.0000
 
 [ Network.net0.Node.n22 ]
-SentMessages = 13175
-SentBytes = 1040824
-SendRate = 0.0051
-ReceivedMessages = 13175
-ReceivedBytes = 121784
-ReceiveRate = 0.0006
+SentMessages = 12390
+SentBytes = 1061168
+SendRate = 0.0082
+ReceivedMessages = 12390
+ReceivedBytes = 115504
+ReceiveRate = 0.0009
+in_buf_0.Size = 1024 
+in_buf_0.MessageOccupancy = 0.00
+in_buf_0.ByteOccupancy = 0.00
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 1024 
+out_buf_0.MessageOccupancy = 0.00
+out_buf_0.ByteOccupancy = 0.08
+out_buf_0.Utilization = 0.0001
+
+[ Network.net0.Node.n23 ]
+SentMessages = 11254
+SentBytes = 1099440
+SendRate = 0.0085
+ReceivedMessages = 11254
+ReceivedBytes = 106416
+ReceiveRate = 0.0008
 in_buf_0.Size = 1024 
 in_buf_0.MessageOccupancy = 0.00
 in_buf_0.ByteOccupancy = 0.00
@@ -8073,21 +8089,5 @@ in_buf_0.Utilization = 0.0000
 out_buf_0.Size = 1024 
 out_buf_0.MessageOccupancy = 0.00
 out_buf_0.ByteOccupancy = 0.05
-out_buf_0.Utilization = 0.0000
-
-[ Network.net0.Node.n23 ]
-SentMessages = 12044
-SentBytes = 1080160
-SendRate = 0.0052
-ReceivedMessages = 12044
-ReceivedBytes = 112736
-ReceiveRate = 0.0005
-in_buf_0.Size = 1024 
-in_buf_0.MessageOccupancy = 0.00
-in_buf_0.ByteOccupancy = 0.00
-in_buf_0.Utilization = 0.0000
-out_buf_0.Size = 1024 
-out_buf_0.MessageOccupancy = 0.00
-out_buf_0.ByteOccupancy = 0.04
 out_buf_0.Utilization = 0.0000
 
